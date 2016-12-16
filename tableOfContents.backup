@@ -1,0 +1,1792 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: langdata; Type: TABLE; Schema: public; Owner: marc; Tablespace: 
+--
+
+CREATE TABLE langdata (
+    id integer NOT NULL,
+    recievedname text,
+    baseform text,
+    alphaidx text,
+    formname text,
+    textname text
+);
+
+
+ALTER TABLE langdata OWNER TO marc;
+
+--
+-- Data for Name: langdata; Type: TABLE DATA; Schema: public; Owner: marc
+--
+
+COPY langdata (id, recievedname, baseform, alphaidx, formname, textname) FROM stdin;
+1	spa-001d19ec.flac	bola	bola	n	bola
+2	spa-0059d70a.flac	gen	gen	undefined	gen
+3	spa-00655781.flac	contrato	contrato	n	el contrato
+7	spa-00a1cd96.flac	cazar	cazar	v	cazar
+4	spa-0066baf0.flac	honrar	honrar	undefined	honrar
+5	spa-00836758.flac	datilera	datilera	undefined	datilera
+8	spa-00ac40e3.flac	carbón	carbón	n	carbón
+9	spa-00ade004.flac	apreciación	apreciación	n	una apreciación
+6	spa-008446ec.flac	importar	importar	undefined	importar
+10	spa-00afb558.flac	forma	forma	n	la forma
+12	spa-00eaa17c.flac	hacer	hacer	undefined	hacer
+11	spa-00cc3f62.flac	atención	atención	n	atención
+13	spa-0128cb4b.flac	haber	haber	undefined	haber
+14	spa-01309816.flac	energía	energía	n	la energía
+15	spa-0137283d.flac	alquilar	alquilar	undefined	alquilar
+16	spa-0189bfd0.flac	gusto	gusto	undefined	el gusto
+17	spa-01a0c228.flac	aparato	aparato	n	aparato
+18	spa-01a35f5e.flac	imposición	imposición	undefined	imposición
+19	spa-01a8b7d9.flac	fecha	fecha	n	fecha
+21	spa-01bd6a85.flac	finalmente	finalmente	adv	finalmente
+22	spa-01ca2f50.flac	estimar	estimar	v	estimar
+20	spa-01af48cd.flac	extraño	extraño	adj	extraño
+23	spa-01d4b911.flac	bestia	bestia	n	bestia
+25	spa-024d6fbd.flac	formulario	formulario	n	formulario
+26	spa-02d027cf.flac	cuadro	cuadro	undefined	cuadro
+24	spa-01d7a131.flac	crimen	crimen	n	el crimen
+27	spa-0324b79d.flac	guía	guía	undefined	guía
+29	spa-03339fa0.flac	característica	característica	n	característica
+30	spa-034b259f.flac	estrategia	estrategia	n	la estrategia
+28	spa-032f5ec8.flac	cuota	cuota	n	una cuota
+31	spa-03535ed9.flac	hotel	hotel	undefined	hotel
+34	spa-03c2cef1.flac	disposición	disposición	n	disposición
+33	spa-03a687bd.flac	hielo	hielo	undefined	el hielo
+35	spa-03e95e5a.flac	crédito	crédito	n	un crédito
+32	spa-036b9726.flac	ejemplar	ejemplar	adj	ejemplar
+36	spa-03edc072.flac	capaz	capaz	adj	capaz
+39	spa-049bf074.flac	bombear	bombear	v	bombear
+38	spa-0446b37f.flac	enviar	enviar	v	enviar
+40	spa-04b01eb3.flac	conducir	conducir	v	conducir
+37	spa-040be1f1.flac	castigo	castigo	n	el castigo
+41	spa-04c713a0.flac	cielo	cielo	n	cielo
+44	spa-0553a563.flac	aventura	aventura	n	una aventura
+43	spa-0548a856.flac	estrecho	estrecho	adj	estrecho
+45	spa-055d30d4.flac	adorno	adorno	n	el adorno
+42	spa-04d0dac1.flac	carne	carne	n	la carne
+46	spa-059cd541.flac	gordo	gordo	undefined	gordo
+49	spa-06428fb0.flac	fallo	fallo	n	fallo
+48	spa-062cba21.flac	gran	gran	undefined	gran
+50	spa-066ca0f2.flac	conferencia	conferencia	n	la conferencia
+47	spa-06235fce.flac	diecisiete	diecisiete	undefined	diecisiete
+51	spa-0672dd3f.flac	bombero	bombero	undefined	bombero
+53	spa-067f1c51.flac	discusión	discusión	n	discusión
+54	spa-0689a5c0.flac	decoración	decoración	n	decoración
+52	spa-067d8ca5.flac	expreso	expreso	n	el expreso
+55	spa-0719cab8.flac	débil	débil	adj	débil
+57	spa-0753164d.flac	desperdicios	desperdicios	n	los desperdicios
+58	spa-07532323.flac	diputación	diputación	n	diputación
+56	spa-073e724e.flac	duro	duro	adj	duro
+59	spa-07587575.flac	época	época	n	época
+61	spa-078064e9.flac	dedo	dedo	n	dedo
+62	spa-08075be8.flac	cerilla	cerilla	n	cerilla
+60	spa-076f44dd.flac	banco	banco	n	el banco
+63	spa-08115cbf.flac	crimen	crimen	n	crimen
+65	spa-0868babe.flac	estas	estas	a	estas
+66	spa-087be8f9.flac	evidencia	evidencia	n	una evidencia
+64	spa-081e42e7.flac	gobierno	gobierno	undefined	el gobierno
+67	spa-08e53312.flac	esencial	esencial	adj	esencial
+70	spa-099299e3.flac	alternativa	alternativa	n	alternativa
+69	spa-091bc2b3.flac	cocinero	cocinero	undefined	cocinero
+71	spa-0999fbb8.flac	estación	estación	n	la estación
+68	spa-09057641.flac	bienestar	bienestar	n	bienestar
+72	spa-09a68a64.flac	destreza	destreza	n	destreza
+74	spa-09e4a411.flac	cualquier	cualquier	undefined	cualquier cosa
+75	spa-09e972d0.flac	ejército	ejército	n	ejército
+73	spa-09b88bc0.flac	freno	freno	n	el freno
+76	spa-09fffcb0.flac	además	además	a	además de
+78	spa-0a24655d.flac	cuenca	cuenca	n	la cuenca
+79	spa-0a3fe09c.flac	catar	catar	v	catar
+77	spa-0a004de0.flac	anaranjado	anaranjado	adj	anaranjado
+80	spa-0a4e3e38.flac	experiencia	experiencia	n	la experiencia
+82	spa-0aa3c2d4.flac	disposición	disposición	n	la disposición
+83	spa-0aa52839.flac	carbón	carbón	n	el carbón
+81	spa-0a8bca45.flac	idea	idea	undefined	idea
+84	spa-0aede318.flac	esta	esta	a	esta
+86	spa-0af90526.flac	carne	carne	n	carne
+87	spa-0b1dc7ce.flac	internacional	internacional	undefined	internacional
+85	spa-0af2245c.flac	antiguo	antiguo	adj	antiguo
+88	spa-0b368163.flac	digitalizar	digitalizar	undefined	digitalizar
+90	spa-0b5879ac.flac	diario	diario	n	diario
+91	spa-0b7adba3.flac	cubo	cubo	n	el cubo
+89	spa-0b4f4503.flac	con	con	undefined	con ella
+92	spa-0ba9aaf2.flac	aparato	aparato	n	el aparato
+94	spa-0bab074f.flac	bióloga	bióloga	undefined	bióloga
+95	spa-0c041022.flac	comunicarse	comunicarse	undefined	comunicarse
+93	spa-0baade43.flac	estancia	estancia	n	estancia
+96	spa-0c0f4d45.flac	alternativa	alternativa	n	una alternativa
+100	spa-0c5bb165.flac	carro	carro	n	carro
+98	spa-0c449edf.flac	diario	diario	undefined	a diario
+103	spa-0c961163.flac	diferencia	diferencia	n	diferencia
+108	spa-0d986825.flac	exhibir	exhibir	v	exhibir
+113	spa-0e866abf.flac	forma	forma	n	forma
+118	spa-0fea678d.flac	funcionar	funcionar	undefined	funcionar
+123	spa-10778c38.flac	cobre	cobre	n	cobre
+128	spa-11dc5a6d.flac	software	software	undefined	el software
+133	spa-12531ec9.flac	barco	barco	n	el barco
+138	spa-12d2f17b.flac	combate	combate	n	un combate
+143	spa-135ceee9.flac	indicar	indicar	undefined	indicar
+148	spa-1435d52d.flac	alumno	alumno	n	alumno
+153	spa-14b85eac.flac	gol	gol	undefined	gol
+158	spa-1570887f.flac	baño	baño	n	baño
+163	spa-16060ee4.flac	doctor	doctor	n	el doctor
+168	spa-171ef90f.flac	comerciar	comerciar	v	comerciar
+173	spa-17c26172.flac	estancia	estancia	n	una estancia
+178	spa-1800cd00.flac	dato	dato	n	los datos
+183	spa-1938edb6.flac	disco	disco	undefined	el disco duro
+188	spa-1a12f815.flac	ampliación	ampliación	n	ampliación
+193	spa-1aa3958e.flac	compañía	compañía	n	una compañía
+198	spa-1b2de2d9.flac	hacer hincapié	hacer hincapié	undefined	hacer hincapié
+203	spa-1bc66b5b.flac	ahorrar	ahorrar	v	ahorrar
+208	spa-1cfe692c.flac	circunstancia	circunstancia	n	circunstancia
+213	spa-1dc923a5.flac	dominio	dominio	n	el dominio
+218	spa-1e53af44.flac	concurso	concurso	n	el concurso
+223	spa-1e988153.flac	conexión	conexión	n	la conexión
+228	spa-1f1cb3b4.flac	con usted	con usted	undefined	con usted
+233	spa-1fde0dc7.flac	extensión	extensión	n	la extensión
+238	spa-20644efb.flac	esfera	esfera	n	esfera
+243	spa-21c525a1.flac	dejar	dejar	v	dejar
+248	spa-22694771.flac	comunidad	comunidad	n	comunidad
+253	spa-22f0a911.flac	ordenador	ordenador	undefined	el ordenador
+258	spa-23a41bec.flac	invierno	invierno	undefined	el invierno
+263	spa-242eb8fb.flac	inferior	inferior	undefined	inferior
+268	spa-24a022ec.flac	cuál	cuál	undefined	cuál
+273	spa-2553dcb3.flac	dificultad	dificultad	n	la dificultad
+278	spa-263a4eb0.flac	educación	educación	n	educación
+283	spa-2678f25a.flac	efecto	efecto	n	el efecto
+288	spa-270af758.flac	falda	falda	n	la falda
+293	spa-27e07816.flac	copa	copa	n	una copa
+298	spa-28b8a208.flac	existente	existente	adj	existente
+303	spa-29365c9b.flac	artificial	artificial	adj	artificial
+308	spa-29e79d07.flac	verdad	verdad	undefined	es verdad
+313	spa-2a921262.flac	escribir	escribir	v	escribir
+318	spa-2b50fc23.flac	elevar	elevar	v	elevar
+323	spa-2b9f5319.flac	guante	guante	undefined	el guante
+328	spa-2c80f17a.flac	firme	firme	adj	firme
+333	spa-2d4f33e5.flac	figura	figura	n	una figura
+338	spa-2e77e9de.flac	calle	calle	n	calle
+343	spa-2f48e221.flac	fe	fe	n	la fe
+348	spa-2fbe0fd4.flac	efecto	efecto	n	efecto
+353	spa-307711f1.flac	isla	isla	undefined	la isla
+358	spa-30b5f3e6.flac	espejo	espejo	undefined	espejo
+363	spa-31ee7a58.flac	aseo	aseo	undefined	aseo
+368	spa-3274b121.flac	interés	interés	undefined	el interés
+373	spa-33c9673b.flac	camino	camino	n	camino
+378	spa-34ba00da.flac	andar	andar	v	andar
+383	spa-351d09f6.flac	acerca	acerca	undefined	acerca de
+388	spa-35a777d1.flac	ejemplo	ejemplo	n	ejemplo
+393	spa-36f6b665.flac	ejemplo	ejemplo	n	un ejemplo
+398	spa-37ab8424.flac	criterio	criterio	n	el criterio
+403	spa-386fc278.flac	extenso	extenso	adj	extenso
+408	spa-39427475.flac	respecto	respecto	undefined	con respecto
+413	spa-39fa5e0e.flac	hoja	hoja	undefined	hoja
+418	spa-3a1f0a5f.flac	adentro	adentro	adv	adentro
+423	spa-3aa45c94.flac	información	información	undefined	información
+428	spa-3b3f3fad.flac	estudiante	estudiante	n	estudiante
+433	spa-3bee5771.flac	cargo	cargo	n	cargo
+438	spa-3d24ffdc.flac	determinar	determinar	v	determinar
+443	spa-3dbcd246.flac	funcionamiento	funcionamiento	undefined	el funcionamiento
+448	spa-3ed9b060.flac	herir	herir	undefined	herir
+453	spa-3f75dae0.flac	tratamiento de texto	tratamiento de texto	undefined	el tratamiento de texto
+458	spa-3fdef323.flac	actitud	actitud	n	actitud
+463	spa-4132a80e.flac	anuncio	anuncio	n	el anuncio
+468	spa-41aaff87.flac	ciencia	ciencia	n	la ciencia
+473	spa-42d19a43.flac	encargar	encargar	v	encargar
+478	spa-435c8e7a.flac	historia	historia	undefined	historia
+483	spa-437bd4ba.flac	centro	centro	n	el
+488	spa-442b8b93.flac	frío	frío	adj	frío
+493	spa-44e42029.flac	intervención	intervención	undefined	la intervención
+498	spa-45a8294e.flac	invierno	invierno	undefined	invierno
+503	spa-45edc386.flac	bien	bien	adv	bien
+508	spa-46907389.flac	comienzo	comienzo	n	el comienzo
+513	spa-46ff41fd.flac	inquilino	inquilino	undefined	inquilino
+518	spa-47aee45e.flac	artículo	artículo	n	un artículo
+523	spa-4821c785.flac	bebida	bebida	n	bebida
+528	spa-48ea00ec.flac	ratón	ratón	undefined	el ratón
+533	spa-49b6135f.flac	hora	hora	undefined	la hora
+538	spa-4b2a32fd.flac	funcionario	funcionario	undefined	el funcionario
+543	spa-4ba3feb0.flac	discusión	discusión	n	la discusión
+548	spa-4c215f8b.flac	cuarto	cuarto	n	cuarto
+553	spa-4e16b9e9.flac	aun	aun	undefined	aun
+558	spa-4ee0572e.flac	elección	elección	n	elección
+563	spa-4f1a390f.flac	importante	importante	undefined	importante
+568	spa-5008f05f.flac	amplio	amplio	adj	amplio
+573	spa-50f499ae.flac	curva	curva	n	curva
+99	spa-0c4a222b.flac	interface	interface	undefined	el interface
+104	spa-0c9bcd5a.flac	adorno	adorno	n	adorno
+109	spa-0df83033.flac	daños	daños	undefined	daños
+114	spa-0f81683e.flac	fecha	fecha	n	la fecha
+119	spa-0ffe75e0.flac	derecho	derecho	adj	derecho
+124	spa-109cc66e.flac	hablar	hablar	undefined	hablar por teléfono
+129	spa-11e48453.flac	año	año	n	año
+134	spa-125bdd90.flac	astrónomo	astrónomo	undefined	astrónomo
+139	spa-12db82bc.flac	edificio	edificio	n	un edificio
+144	spa-1370ccc7.flac	ayuda	ayuda	n	la ayuda
+149	spa-14681d8b.flac	ocaso	ocaso	undefined	el ocaso
+154	spa-14feb5fc.flac	aspecto	aspecto	n	aspecto
+159	spa-157d7824.flac	camisa	camisa	n	la camisa
+164	spa-1632210d.flac	caja	caja	n	la caja
+169	spa-17633944.flac	cálido	cálido	adj	cálido
+174	spa-17c73620.flac	estampa	estampa	n	una estampa
+179	spa-18bfa307.flac	cuadrado	cuadrado	n	el cuadrado
+184	spa-193b1a52.flac	aventura	aventura	n	aventura
+189	spa-1a1d2bd9.flac	célula	célula	n	la célula
+194	spa-1ae4c075.flac	acrecentar	acrecentar	v	acrecentar
+199	spa-1b8bf738.flac	amigo	amigo	n	amigo
+204	spa-1c6a5ff1.flac	dirección	dirección	n	dirección
+209	spa-1d02ded8.flac	comparar	comparar	v	comparar
+214	spa-1e0410ff.flac	esfera	esfera	n	la esfera
+219	spa-1e58b273.flac	aire	aire	n	el aire
+224	spa-1eb12628.flac	asegurar	asegurar	v	asegurar
+229	spa-1f3054b4.flac	caricias	caricias	undefined	caricias
+234	spa-201c0c1c.flac	biólogo	biólogo	undefined	un biólogo
+239	spa-2077f58b.flac	cobrar	cobrar	v	cobrar
+244	spa-21db3196.flac	exigir	exigir	undefined	exigir
+249	spa-227d9a24.flac	actual	actual	adj	actual
+254	spa-230b26e3.flac	contribución	contribución	n	contribución
+259	spa-23bcdfc3.flac	disponible	disponible	adj	disponible
+264	spa-243a5588.flac	hacienda	hacienda	undefined	hacienda
+269	spa-24f37dd7.flac	absoluto	absoluto	undefined	en absoluto
+274	spa-257b4024.flac	escandalizar	escandalizar	v	escandalizar
+279	spa-265211e8.flac	átomo	átomo	n	un átomo
+284	spa-267e7f59.flac	carámba	carámba	undefined	carámba
+289	spa-272ceae5.flac	cultivo	cultivo	n	cultivo
+294	spa-27f5043b.flac	día	día	n	día
+299	spa-28ce29b6.flac	error	error	n	una error
+304	spa-299181b3.flac	hecho	hecho	undefined	el hecho
+309	spa-2a380766.flac	armario	armario	undefined	armario
+314	spa-2aba2dc2.flac	corte	corte	n	el corte
+319	spa-2b647e95.flac	artículo	artículo	n	artículo
+324	spa-2bb46289.flac	ingeniero	ingeniero	undefined	ingeniero
+329	spa-2c91dfdb.flac	arena	arena	n	arena
+334	spa-2d99c17a.flac	fallecimiento	fallecimiento	undefined	fallecimiento
+339	spa-2e9be0da.flac	cansado	cansado	adj	cansado
+344	spa-2f91f0f4.flac	amable	amable	adj	amable
+349	spa-2fd9f305.flac	enseñanza	enseñanza	n	enseñanza
+354	spa-30775e9a.flac	experimentar	experimentar	v	experimentar
+359	spa-311b14ae.flac	creer	creer	v	creer
+364	spa-323cca5a.flac	expresar	expresar	v	expresar
+369	spa-32f9916e.flac	chico	chico	n	chico
+374	spa-33f6c221.flac	aborto	aborto	undefined	aborto
+379	spa-34bf9dce.flac	ver	ver	undefined	a ver
+384	spa-352788ef.flac	cuchara	cuchara	n	la cuchara
+389	spa-35aab717.flac	discípulo	discípulo	n	el discípulo
+394	spa-372f1ee1.flac	capital	capital	n	la capital
+399	spa-37c9d341.flac	gelatina	gelatina	undefined	la gelatina
+404	spa-388a0502.flac	astronauta	astronauta	undefined	astronauta
+409	spa-39600cf0.flac	cajón	cajón	n	cajón
+414	spa-39ff7dda.flac	bolsa	bolsa	n	bolsa
+419	spa-3a368784.flac	carretilla	carretilla	n	una carretilla
+424	spa-3adebab5.flac	cerrar	cerrar	v	cerrar
+429	spa-3b5160c6.flac	cifra	cifra	n	la cifra
+434	spa-3bf75638.flac	antes	antes	undefined	antes
+439	spa-3d35c1e5.flac	aguja	aguja	n	la aguja
+444	spa-3e379a62.flac	cita	cita	undefined	cita
+449	spa-3f0fc8c7.flac	disciplina	disciplina	n	la disciplina
+454	spa-3f8ce9fb.flac	canto	canto	n	el canto
+459	spa-40175bea.flac	brutal	brutal	adj	brutal
+464	spa-414af382.flac	diferencia	diferencia	n	la diferencia
+469	spa-41e1d3c4.flac	comisión	comisión	n	comisión
+474	spa-42f34f83.flac	evento	evento	n	una evento
+479	spa-4360afa0.flac	grano	grano	undefined	grano
+484	spa-439ea746.flac	comportamiento	comportamiento	n	comportamiento
+489	spa-44701dd1.flac	partido	partido	undefined	el partido
+494	spa-44e4d9b9.flac	agujero	agujero	n	el agujero
+499	spa-45a90d60.flac	ala	ala	n	ala
+504	spa-460262cf.flac	como	como	adv	como
+509	spa-46abd1a7.flac	criatura	criatura	n	una criatura
+514	spa-476331ef.flac	aprendizaje	aprendizaje	n	el aprendizaje
+519	spa-47b33548.flac	instante	instante	undefined	instante
+524	spa-48437bf5.flac	envenenar	envenenar	v	envenenar
+529	spa-493e01e6.flac	conjunto	conjunto	n	el conjunto
+534	spa-4a192df9.flac	arder	arder	v	arder
+539	spa-4b33562a.flac	individuo	individuo	undefined	el individuo
+544	spa-4ba8874d.flac	instancia	instancia	undefined	la instancia
+549	spa-4d82f305.flac	bondad	bondad	n	bondad
+554	spa-4e3bab53.flac	árbol	árbol	n	el árbol
+559	spa-4ee5e2d6.flac	automático	automático	adj	automático
+564	spa-4f346e8d.flac	cesto	cesto	n	un cesto
+569	spa-504b5b12.flac	elemento	elemento	n	elemento
+574	spa-513d2c71.flac	capacidad	capacidad	n	capacidad
+579	spa-515e5735.flac	aumento	aumento	n	un aumento
+97	spa-0c41becb.flac	desconcierto	desconcierto	n	desconcierto
+102	spa-0c8d7633.flac	antes	antes	adv	antes que
+107	spa-0d920f16.flac	horno	horno	undefined	el horno
+112	spa-0e5337db.flac	fumar	fumar	undefined	fumar
+117	spa-0fe99562.flac	intervención	intervención	undefined	intervención
+122	spa-1055d00f.flac	cabo	cabo	n	el cabo
+127	spa-118330cf.flac	combate	combate	n	combate
+132	spa-123e9238.flac	instituto	instituto	undefined	el instituto
+137	spa-12cb93c3.flac	escalera	escalera	undefined	escalera
+142	spa-132ce629.flac	conocimiento	conocimiento	n	conocimiento
+147	spa-14026710.flac	correr	correr	v	correr
+152	spa-14a2fc97.flac	algo	algo	adv	algo
+157	spa-15628e4d.flac	dudarlo	dudarlo	undefined	dudarlo
+162	spa-15ce48f2.flac	medias	medias	undefined	a medias
+167	spa-16cd92a7.flac	abeja	abeja	n	la abeja
+172	spa-17c04b7f.flac	dominio	dominio	n	dominio
+177	spa-17f729ac.flac	existir	existir	v	existir
+182	spa-19111e17.flac	distante	distante	adj	distante
+187	spa-19e787b9.flac	iglesia	iglesia	undefined	la iglesia
+192	spa-1a9c40ac.flac	componente	componente	n	componente
+197	spa-1b29ab12.flac	corriente	corriente	adj	corriente
+202	spa-1bb52808.flac	enterarse	enterarse	undefined	enterarse
+207	spa-1ce06164.flac	con	con	undefined	con nosotros
+212	spa-1dc85e0c.flac	idioma	idioma	undefined	idioma
+217	spa-1e4496cb.flac	existencia	existencia	n	la existencia
+222	spa-1e90d3f0.flac	director	director	n	director
+227	spa-1ef6b35f.flac	expresión	expresión	n	expresión
+232	spa-1fc0f36a.flac	doctor	doctor	n	doctor
+237	spa-2063ee4e.flac	elección	elección	n	la elección
+242	spa-21bf07ea.flac	instante	instante	undefined	el instante
+247	spa-2259ae97.flac	guante	guante	undefined	guante
+252	spa-22bbc31e.flac	embaucar	embaucar	v	embaucar
+257	spa-2386774d.flac	habilidoso	habilidoso	undefined	habilidoso
+262	spa-23eae749.flac	affaire	affaire	undefined	gangas
+267	spa-248efaf9.flac	hospital	hospital	undefined	el hospital
+272	spa-253c4806.flac	globo	globo	undefined	el globo
+277	spa-25e4b9b6.flac	jardin	jardin	undefined	el jardin
+282	spa-2675036b.flac	centro	centro	n	centro
+287	spa-26cb512d.flac	campeonato	campeonato	n	el campeonato
+292	spa-2799236f.flac	comercio	comercio	n	el comercio
+297	spa-28a07e3e.flac	imitar	imitar	undefined	imitar
+302	spa-292328bf.flac	falda	falda	n	falda
+307	spa-29c8e8f2.flac	impuesto	impuesto	undefined	impuesto territorial
+312	spa-2a805cce.flac	instituto	instituto	undefined	instituto
+317	spa-2b1d2620.flac	camisa	camisa	n	camisa
+322	spa-2b7847f5.flac	coste	coste	n	el coste
+327	spa-2c2e912b.flac	especial	especial	adj	especial
+332	spa-2d05e830.flac	grabar	grabar	undefined	grabar
+337	spa-2dd127f2.flac	harto	harto	undefined	harto
+342	spa-2f32b1c4.flac	etapa	etapa	n	etapa
+347	spa-2fbad80c.flac	abertura	abertura	undefined	abertura
+352	spa-3018519e.flac	dependiente	dependiente	adj	dependiente
+357	spa-30a6f17e.flac	cajón	cajón	n	el cajón
+362	spa-31c7bfcf.flac	cuenta	cuenta	n	cuenta
+367	spa-32742ca8.flac	cuchara	cuchara	n	cuchara
+372	spa-33c550b1.flac	información	información	undefined	la información
+377	spa-348c5145.flac	arrastrar	arrastrar	v	arrastrar
+382	spa-351cad3c.flac	fuego	fuego	undefined	fuego
+387	spa-3578bf21.flac	cifra	cifra	n	cifra
+392	spa-36bd82d7.flac	enfermo	enfermo	adj	enfermo
+397	spa-37a314bc.flac	aludir	aludir	v	aludir
+402	spa-386d0441.flac	corcho	corcho	n	un corcho
+407	spa-39382b71.flac	época	época	n	la época
+412	spa-39ed2310.flac	fallar	fallar	v	fallar
+417	spa-3a107888.flac	fijo	fijo	adj	fijo
+422	spa-3a75d27c.flac	capital	capital	n	el capital
+427	spa-3b2cf750.flac	declaración	declaración	n	declaración
+432	spa-3bacb838.flac	antiguamente	antiguamente	adv	antiguamente
+437	spa-3cd10e73.flac	auge	auge	n	el auge
+442	spa-3d989e2d.flac	desperdicios	desperdicios	n	desperdicios
+447	spa-3e861201.flac	girar	girar	undefined	girar
+452	spa-3f20c13f.flac	entre	entre	adv	entre
+457	spa-3fce7f4c.flac	bandeja	bandeja	n	una bandeja
+462	spa-411db273.flac	ganar	ganar	undefined	ganar dinero
+467	spa-419af22f.flac	esposa	esposa	n	esposa
+472	spa-429e3b0d.flac	con ustedes	con ustedes	undefined	con ustedes
+477	spa-433a1921.flac	agradecer	agradecer	v	agradecer
+482	spa-4375757f.flac	bárbaro	bárbaro	adj	bárbaro
+487	spa-442a3ea7.flac	impuesto	impuesto	undefined	impuesto de inquilinato
+492	spa-44d87dfd.flac	aterrizar	aterrizar	v	aterrizar
+497	spa-45548a12.flac	hallazgo	hallazgo	undefined	hallazgo
+502	spa-45ecc712.flac	escritura	escritura	n	la escritura
+507	spa-462e94ac.flac	examinar	examinar	v	examinar
+512	spa-46f95bc0.flac	ciencia	ciencia	n	ciencia
+517	spa-47a2cbe0.flac	colectivo	colectivo	n	colectivo
+522	spa-47fd56dd.flac	árbol	árbol	n	árbol
+527	spa-48e6217b.flac	quemarropa	quemarropa	undefined	a quemarropa
+532	spa-49a986b2.flac	club	club	n	un club
+537	spa-4af8ea17.flac	faz	faz	n	la faz
+542	spa-4b8a1a00.flac	encima	encima	undefined	encima
+547	spa-4bef624f.flac	dueña	dueña	n	dueña
+552	spa-4e12b5f2.flac	azúcar	azúcar	n	azúcar
+557	spa-4ed15834.flac	barato	barato	adj	barato
+562	spa-4f00ad7d.flac	garganta	garganta	undefined	garganta
+567	spa-4fd66936.flac	fase	fase	n	fase
+572	spa-50d1a59f.flac	específico	específico	adj	específico
+101	spa-0c74e47f.flac	expreso	expreso	n	expreso
+106	spa-0cd908b9.flac	cerilla	cerilla	n	una cerilla
+111	spa-0e3efe48.flac	descortés	descortés	undefined	descortés
+116	spa-0fc7c7a2.flac	bicicleta	bicicleta	n	una bicicleta
+121	spa-1023bb41.flac	comisión	comisión	n	una comisión
+126	spa-115eb0b5.flac	bueno	bueno	adj	bueno
+131	spa-1202ad96.flac	honor	honor	undefined	honor
+136	spa-12a3dcf5.flac	cerradura	cerradura	n	una cerradura
+141	spa-13196571.flac	estampa	estampa	n	estampa
+146	spa-13df17ce.flac	cuando	cuando	a	cuando
+151	spa-149d3bec.flac	higuera	higuera	undefined	higuera
+156	spa-150d5073.flac	ciprés	ciprés	undefined	ciprés
+161	spa-15a2192a.flac	formación	formación	n	formación
+166	spa-16b0cb1d.flac	estirar	estirar	v	estirar
+171	spa-17af7448.flac	aspecto	aspecto	n	un aspecto
+176	spa-17e23397.flac	cantidad	cantidad	n	cantidad
+181	spa-18e44d40.flac	abeja	abeja	n	abeja
+186	spa-199facce.flac	clase	clase	n	clase
+191	spa-1a7c42ab.flac	incertidumbre	incertidumbre	undefined	la incertidumbre
+196	spa-1aed4cf6.flac	industria	industria	undefined	la industria
+201	spa-1bb2a55f.flac	celda	celda	n	una celda
+206	spa-1c8ffc7a.flac	con	con	undefined	con ellos
+211	spa-1d591320.flac	ayuda	ayuda	n	ayuda
+216	spa-1e2b43bc.flac	costoso	costoso	adj	costoso
+221	spa-1e6e938c.flac	abuelos	abuelos	undefined	los abuelos
+226	spa-1ef684bf.flac	cuatro	cuatro	undefined	cuatro
+231	spa-1fa8349b.flac	clavo	clavo	n	un clavo
+236	spa-203c5dff.flac	amar	amar	v	amar
+241	spa-21a78114.flac	encontrar	encontrar	v	encontrar
+246	spa-2207c5cf.flac	expansión	expansión	n	expansión
+251	spa-22b8003c.flac	arena	arena	n	la arena
+256	spa-2358b8b0.flac	hallazgo	hallazgo	undefined	el hallazgo
+261	spa-23c3afe0.flac	concepción	concepción	n	la concepción
+266	spa-247d2b51.flac	cultivo	cultivo	n	un cultivo
+271	spa-252b3e2d.flac	instancia	instancia	undefined	instancia
+276	spa-25c4ea84.flac	firma	firma	n	la firma
+281	spa-26624a68.flac	incendiar	incendiar	undefined	incendiar
+286	spa-26c1e809.flac	inmediatamente	inmediatamente	undefined	inmediatamente
+291	spa-277839c0.flac	evolución	evolución	n	evolución
+296	spa-283ed896.flac	futuro	futuro	undefined	futuro
+301	spa-291737aa.flac	campo	campo	n	campo
+306	spa-299a95bd.flac	izquierdo	izquierdo	undefined	izquierdo
+311	spa-2a7c66a9.flac	fideos	fideos	undefined	fideos
+316	spa-2afec57c.flac	colindante	colindante	undefined	colindante
+321	spa-2b71770c.flac	apariencia	apariencia	n	apariencia
+326	spa-2bed3563.flac	firma	firma	n	firma
+331	spa-2cad937c.flac	declarar	declarar	v	declarar
+336	spa-2da9b32f.flac	borde	borde	n	borde
+341	spa-2f323344.flac	conjunto	conjunto	n	conjunto
+346	spa-2fb3fee5.flac	centro	centro	undefined	el centro
+351	spa-300867c2.flac	amortiguar	amortiguar	v	amortiguar
+356	spa-30966351.flac	amargo	amargo	adj	amargo
+361	spa-31bbb8b7.flac	bienestar	bienestar	n	el bienestar
+366	spa-324dfb75.flac	declaración	declaración	n	la declaración
+371	spa-332f7ed0.flac	aprisa	aprisa	adv	aprisa
+376	spa-34443b59.flac	cuenca	cuenca	n	cuenca
+381	spa-34fed47f.flac	delito	delito	n	un delito
+386	spa-35581483.flac	deseo	deseo	n	deseo
+391	spa-36141ed6.flac	cuantía	cuantía	n	cuantía
+396	spa-378f9304.flac	dibujo	dibujo	n	dibujo
+401	spa-3841f3e2.flac	cortina	cortina	n	la cortina
+406	spa-38f12f40.flac	exactamente	exactamente	adv	exactamente
+411	spa-3991a7d0.flac	exterior	exterior	n	exterior
+416	spa-3a0f9ab5.flac	camino	camino	n	el camino
+421	spa-3a5cece5.flac	generalmente	generalmente	undefined	generalmente
+426	spa-3b102c1d.flac	bandeja	bandeja	n	bandeja
+431	spa-3b81d3f7.flac	anchas	anchas	undefined	a sus anchas
+436	spa-3c884b08.flac	alhaja	alhaja	n	alhaja
+441	spa-3d7722bc.flac	hija	hija	undefined	hija
+446	spa-3e834406.flac	buzón	buzón	undefined	el buzón
+451	spa-3f1d7b0d.flac	apreciación	apreciación	n	apreciación
+456	spa-3fbe9511.flac	capacidad	capacidad	n	la capacidad
+461	spa-40e497eb.flac	departamento	departamento	n	departamento
+466	spa-4195d121.flac	comprar	comprar	v	comprar
+471	spa-4282c85b.flac	hospital	hospital	undefined	hospital
+476	spa-43235cb6.flac	directamente	directamente	adv	directamente
+481	spa-436a43fb.flac	atender	atender	v	atender
+486	spa-441bdd28.flac	azúcar	azúcar	n	el azúcar
+491	spa-44bcadca.flac	caja fuerte	caja fuerte	n	caja fuerte
+496	spa-45486d46.flac	estómago	estómago	n	el estómago
+501	spa-45e9b18f.flac	deseo	deseo	n	el deseo
+506	spa-460a9f48.flac	absoluto	absoluto	adj	absoluto
+511	spa-46f4c108.flac	estándar	estándar	adj	estándar
+516	spa-479a2c64.flac	quién	quién	a	a quién
+521	spa-47eb6acd.flac	cuando quiera	cuando quiera	a	cuando quiera
+526	spa-4872f07a.flac	apostar	apostar	undefined	apostar
+531	spa-49791752.flac	construir	construir	v	construir
+536	spa-4ace7d63.flac	canción	canción	n	canción
+541	spa-4b574413.flac	advertencia	advertencia	n	la advertencia
+546	spa-4bedd201.flac	ir	ir	undefined	ir
+551	spa-4dcb8110.flac	disparar	disparar	v	disparar
+556	spa-4e9b3172.flac	diciembre	diciembre	undefined	diciembre
+561	spa-4ef82b75.flac	abuela	abuela	undefined	la abuela
+566	spa-4fa64b09.flac	fe	fe	n	fe
+571	spa-507ac9f2.flac	acción	acción	n	acción
+576	spa-514c8fec.flac	examen	examen	n	examen
+105	spa-0ccd2bd5.flac	cosa	cosa	n	una cosa
+110	spa-0e02892b.flac	castigo	castigo	n	castigo
+115	spa-0fa7e1cb.flac	cuenta	cuenta	n	la cuenta
+120	spa-101751c5.flac	carretera	carretera	n	la carretera
+125	spa-10e7e248.flac	chiquillo	chiquillo	n	un chiquillo
+130	spa-11ed2c46.flac	inquietud	inquietud	undefined	inquietud
+135	spa-1268771b.flac	acceso	acceso	n	acceso
+140	spa-12feff6c.flac	cuanto	cuanto	undefined	en cuanto
+145	spa-13ae0c8e.flac	lugar	lugar	undefined	en su lugar
+150	spa-147672be.flac	habitual	habitual	undefined	habitual
+155	spa-14ffc077.flac	autoridad	autoridad	n	autoridad
+160	spa-158cf21c.flac	caída	caída	n	caída
+165	spa-1646910e.flac	componente	componente	n	un componente
+170	spa-179b1edd.flac	grupo	grupo	undefined	un grupo
+175	spa-17cf3b8b.flac	cincuenta	cincuenta	undefined	cincuenta
+180	spa-18e08461.flac	museo	museo	undefined	el museo
+185	spa-19859e1b.flac	apoyo	apoyo	n	el apoyo
+190	spa-1a360ea0.flac	arriba	arriba	adv	arriba
+195	spa-1ae9f91a.flac	botón	botón	n	un botón
+200	spa-1bae8a95.flac	acceso	acceso	n	el acceso
+205	spa-1c6ed51a.flac	cuadragésimo	cuadragésimo	undefined	cuadragésimo
+210	spa-1d4e8f9e.flac	célula	célula	n	célula
+215	spa-1e1a16f6.flac	continuar	continuar	v	continuar
+220	spa-1e5ff761.flac	atracción	atracción	n	la atracción
+225	spa-1eb423fe.flac	iglesia	iglesia	undefined	iglesia
+230	spa-1fa54d68.flac	algodón	algodón	n	el algodón
+235	spa-202807eb.flac	física	física	undefined	física
+240	spa-209c412b.flac	comienzo	comienzo	n	comienzo
+245	spa-21f913bc.flac	demanda	demanda	n	demanda
+250	spa-22aa22ff.flac	flor	flor	n	flor
+255	spa-2355e331.flac	diferente	diferente	adj	diferente
+260	spa-23bfeb89.flac	equipo	equipo	n	un equipo
+265	spa-245a88b9.flac	éxito	éxito	n	éxito
+270	spa-252740ed.flac	demanda	demanda	n	una demanda
+275	spa-25b5e5dc.flac	cualidad	cualidad	n	cualidad
+280	spa-265de1e3.flac	estado	estado	n	estado
+285	spa-26ab8d8b.flac	guardia	guardia	undefined	el guardia
+290	spa-2768bfa3.flac	beso	beso	n	beso
+295	spa-283a7763.flac	figura	figura	n	figura
+300	spa-29062a1c.flac	bruscamente	bruscamente	adv	bruscamente
+305	spa-299483a2.flac	bombilla	bombilla	n	bombilla
+310	spa-2a512fef.flac	consolar	consolar	v	consolar
+315	spa-2af51912.flac	escoge	escoge	undefined	escoge
+320	spa-2b6f7e72.flac	escritura	escritura	n	escritura
+325	spa-2becac18.flac	caída	caída	n	la caída
+330	spa-2ca2e551.flac	guardia	guardia	undefined	guardia
+335	spa-2d9c7537.flac	éxito	éxito	n	el éxito
+340	spa-2f04a4af.flac	atraso	atraso	undefined	atraso
+345	spa-2f9b1c6d.flac	estado	estado	n	el estado
+350	spa-2fe0a434.flac	humor	humor	undefined	humor
+355	spa-30893479.flac	autopista	autopista	undefined	autopista
+360	spa-3157bc26.flac	ejército	ejército	n	el ejército
+365	spa-324121c8.flac	escuchar	escuchar	v	escuchar
+370	spa-331c1e02.flac	aguja	aguja	n	aguja
+375	spa-343a50b0.flac	buscar	buscar	v	buscar
+380	spa-34c4f3f5.flac	actor	actor	n	el actor
+385	spa-354f9441.flac	delantera	delantera	n	la delantera
+390	spa-35fc3c93.flac	bombilla	bombilla	n	una bombilla
+395	spa-3746b9b2.flac	arar	arar	v	arar
+400	spa-37d6a23d.flac	bolsa	bolsa	n	la bolsa
+405	spa-388d5764.flac	actitud	actitud	n	la actitud
+410	spa-396e1186.flac	diverso	diverso	adj	diverso
+415	spa-3a0d99da.flac	coche	coche	n	un coche
+420	spa-3a4a87a3.flac	echar	echar	v	echar
+425	spa-3b0b1411.flac	deber	deber	n	el deber
+430	spa-3b7033d3.flac	dentro	dentro	adv	dentro
+435	spa-3c70dfe6.flac	distinto	distinto	adj	distinto
+440	spa-3d3e9177.flac	denso	denso	adj	denso
+445	spa-3e496e8a.flac	dibujo	dibujo	n	el dibujo
+450	spa-3f1257a5.flac	cortina	cortina	n	cortina
+455	spa-3fb4e715.flac	bestia	bestia	n	la bestia
+460	spa-40a40491.flac	conectarse	conectarse	undefined	conectarse a Internet
+465	spa-419511cd.flac	comercio	comercio	n	comercio
+470	spa-4260b543.flac	huevo	huevo	undefined	un huevo
+475	spa-42fc6dde.flac	intérprete	intérprete	undefined	intérprete
+480	spa-4361b470.flac	cerradura	cerradura	n	cerradura
+485	spa-43b2f250.flac	caminar	caminar	v	caminar
+490	spa-447556f9.flac	actor	actor	n	actor
+495	spa-44ee91fc.flac	asunto	asunto	adj	asunto
+500	spa-45ad0830.flac	fuego	fuego	undefined	el fuego
+505	spa-46053428.flac	encima	encima	adv	encima de
+510	spa-46d09701.flac	incluir	incluir	undefined	incluir
+515	spa-47860b05.flac	evento	evento	n	evento
+520	spa-47ce66df.flac	anillo	anillo	n	anillo
+525	spa-485218d6.flac	evitar	evitar	v	evitar
+530	spa-4978cb86.flac	exitoso	exitoso	adj	exitoso
+535	spa-4a271e8b.flac	agudo	agudo	adj	agudo
+540	spa-4b3bc0d4.flac	anuncio	anuncio	n	anuncio
+545	spa-4bbab11d.flac	deber	deber	n	deber
+550	spa-4db4e437.flac	fábrica	fábrica	n	fábrica
+555	spa-4e97c77e.flac	estrategia	estrategia	n	estrategia
+560	spa-4eedb163.flac	agujero	agujero	n	agujero
+565	spa-4f3d4cf7.flac	canto	canto	n	canto
+570	spa-5059a98e.flac	cuerda	cuerda	n	la cuerda
+575	spa-5140c20c.flac	amo	amo	n	el amo
+580	spa-5171f7e0.flac	incertidumbre	incertidumbre	undefined	incertidumbre
+585	spa-51fc6176.flac	genial	genial	undefined	genial
+590	spa-523d2c49.flac	hermano	hermano	undefined	el hermano
+595	spa-536c4786.flac	competencia	competencia	n	la competencia
+578	spa-5159ec6e.flac	afuera	afuera	adv	afuera
+583	spa-51aec5e2.flac	curso	curso	n	un curso
+588	spa-52118d4e.flac	cojín	cojín	n	cojín
+593	spa-532a51be.flac	expresión	expresión	n	la expresión
+598	spa-5398742a.flac	existencia	existencia	n	existencia
+603	spa-548f3af6.flac	ir de compras	ir de compras	undefined	ir de compras
+608	spa-5577d1aa.flac	crear	crear	v	crear
+613	spa-56a6c252.flac	canción	canción	n	una canción
+618	spa-577a8646.flac	ayudar	ayudar	v	ayudar
+623	spa-57e0deff.flac	cuello	cuello	n	cuello
+628	spa-58715964.flac	arte	arte	n	el arte
+633	spa-58fe718a.flac	gato	gato	undefined	gato
+638	spa-59b9807c.flac	evidencia	evidencia	n	evidencia
+643	spa-5a849b21.flac	procesador	procesador	undefined	el procesador
+648	spa-5acee51a.flac	hierro	hierro	undefined	hierro
+653	spa-5b9c793d.flac	flor	flor	n	una flor
+658	spa-5c589242.flac	crecer	crecer	v	crecer
+663	spa-5d181623.flac	borde	borde	n	el borde
+668	spa-5e05af27.flac	bicicleta	bicicleta	n	bicicleta
+673	spa-5e69c24f.flac	familia	familia	n	familia
+678	spa-5edd4649.flac	curva	curva	n	la curva
+683	spa-5f9d9572.flac	exterior	exterior	n	el exterior
+688	spa-607be717.flac	dar un paseo	dar un paseo	undefined	dar un paseo
+693	spa-614e1b80.flac	garzón	garzón	undefined	garzón
+698	spa-620511e4.flac	enseñanza	enseñanza	n	la enseñanza
+703	spa-62e2bbc5.flac	barco	barco	n	barco
+708	spa-6443bc90.flac	acusar	acusar	v	acusar
+713	spa-6534bd4b.flac	agrupación	agrupación	n	la agrupación
+718	spa-65e9301c.flac	disfrutar	disfrutar	v	disfrutar
+723	spa-667e6c5c.flac	cara	cara	n	cara
+728	spa-66d9f069.flac	campana	campana	n	campana
+733	spa-67b49be5.flac	envolver	envolver	v	envolver
+738	spa-68381faa.flac	dominación	dominación	n	la dominación
+743	spa-688f3e52.flac	dificultad	dificultad	n	dificultad
+748	spa-699aceda.flac	caso	caso	n	un caso
+753	spa-6a676918.flac	humedad	humedad	undefined	humedad
+758	spa-6b15e714.flac	décimo	décimo	undefined	décimo
+763	spa-6c8c2bb8.flac	incorrecto	incorrecto	undefined	incorrecto
+768	spa-6db132ab.flac	enregistrement sur les listes électorales	enregistrement sur les listes électorales	undefined	celada
+773	spa-6e261202.flac	aplicación	aplicación	n	aplicación
+778	spa-6e9b3d9f.flac	insólito	insólito	undefined	insólito
+783	spa-6f17a40c.flac	criado	criado	n	criado
+788	spa-701b3833.flac	conexión	conexión	n	conexión
+793	spa-71381adc.flac	gusto	gusto	undefined	gusto
+798	spa-71c13f9c.flac	destrucción	destrucción	n	destrucción
+803	spa-7239fd7a.flac	hoy	hoy	undefined	hoy
+808	spa-727912f8.flac	abonar	abonar	v	abonar
+813	spa-733e0ecd.flac	conseguir	conseguir	v	conseguir
+818	spa-73951291.flac	guía	guía	undefined	el guía
+823	spa-742cfb6c.flac	bote	bote	n	un bote
+828	spa-74e3dea6.flac	cortar	cortar	v	cortar
+833	spa-754dbd05.flac	alto	alto	adj	alto
+838	spa-760a7a07.flac	enjugar	enjugar	v	enjugar
+843	spa-76f32abc.flac	fallo	fallo	n	el fallo
+848	spa-77c97eb7.flac	undefined	(conversation)	undefined	Es la una
+853	spa-785f9de6.flac	concurso	concurso	n	concurso
+858	spa-79092ecc.flac	freno	freno	n	freno
+863	spa-7959a0dd.flac	aprendizaje	aprendizaje	n	aprendizaje
+868	spa-7a2875cb.flac	intérprete	intérprete	undefined	un intérprete
+873	spa-7b1cc3fd.flac	fundamental	fundamental	undefined	fundamental
+878	spa-7ba0810e.flac	aproximadamente	aproximadamente	adv	aproximadamente
+883	spa-7c2d7883.flac	chiquillo	chiquillo	n	chiquillo
+888	spa-7d90298b.flac	de	de	a	de
+893	spa-7df6a3b0.flac	estómago	estómago	n	estómago
+898	spa-7e94e8a5.flac	carretera	carretera	n	carretera
+903	spa-7f2dac44.flac	faz	faz	n	faz
+908	spa-7f6f8a28.flac	estar	estar	undefined	estar
+913	spa-801e7236.flac	amigo	amigo	n	un amigo
+918	spa-805ce5ae.flac	conmover	conmover	v	conmover
+923	spa-8169a37d.flac	conmigo	conmigo	undefined	conmigo
+928	spa-81f64efa.flac	destino	destino	n	destino
+933	spa-829db9f8.flac	actualmente	actualmente	adv	actualmente
+938	spa-83089d58.flac	debatir	debatir	v	debatir
+943	spa-8331c1cf.flac	ancho	ancho	adj	ancho
+948	spa-83edcd5f.flac	atroz	atroz	adj	atroz
+953	spa-85176d0e.flac	aún	aún	undefined	aún
+958	spa-85bfa244.flac	desarrollo	desarrollo	n	el desarrollo
+963	spa-86b84d03.flac	gratuito	gratuito	undefined	gratuito
+968	spa-87644f07.flac	esencia	esencia	n	esencia
+973	spa-87bb4ea2.flac	agua	agua	n	agua
+978	spa-88eee301.flac	acuerdo	acuerdo	n	acuerdo
+983	spa-89df555d.flac	celo	celo	n	el celo
+988	spa-8b039bb0.flac	desgaste	desgaste	n	el desgaste
+993	spa-8bc3442e.flac	coser	coser	v	coser
+998	spa-8ca42231.flac	ellos	ellos	a	ellos
+1003	spa-8d30c73c.flac	durante	durante	a	durante
+1008	spa-8d7e139a.flac	equilibrio	equilibrio	n	equilibrio
+1013	spa-8df2bd06.flac	actividad	actividad	n	actividad
+1018	spa-8ed50c65.flac	anchas	anchas	undefined	anchas
+1023	spa-8fcfe68c.flac	círculo	círculo	n	círculo
+1028	spa-90bf6aa4.flac	espacio	espacio	n	espacio
+1033	spa-918dae7a.flac	aceite	aceite	n	aceite
+1038	spa-91fc0729.flac	confrontación	confrontación	n	la confrontación
+1043	spa-93201188.flac	cera	cera	n	la cera
+1048	spa-9429b954.flac	cara	cara	n	la cara
+1053	spa-957f258f.flac	cepillo	cepillo	n	cepillo
+1058	spa-96e19a63.flac	era	era	n	era
+1063	spa-978ed860.flac	gobernar	gobernar	undefined	gobernar
+577	spa-51526317.flac	almacenar	almacenar	undefined	almacenar
+582	spa-51a7b686.flac	criterio	criterio	n	criterio
+587	spa-520f9681.flac	aumento	aumento	n	aumento
+592	spa-53081894.flac	hierro	hierro	undefined	el hierro
+597	spa-53831580.flac	atracción	atracción	n	atracción
+602	spa-54788383.flac	interés	interés	undefined	interés
+607	spa-556b09d0.flac	decimotercero	decimotercero	undefined	decimotercero
+612	spa-56896fcf.flac	corazón	corazón	n	corazón
+617	spa-5769dbd8.flac	él	él	a	él
+622	spa-57c70da4.flac	compartir	compartir	v	compartir
+627	spa-58344493.flac	hermano	hermano	undefined	hermano
+632	spa-588a7262.flac	examen	examen	n	el examen
+637	spa-59a692a6.flac	campo	campo	n	el campo
+642	spa-5a21401f.flac	estructura	estructura	n	estructura
+647	spa-5ac41779.flac	atardecer	atardecer	n	el atardecer
+652	spa-5b803516.flac	grieta	grieta	undefined	una grieta
+657	spa-5be3406d.flac	humo	humo	undefined	el humo
+662	spa-5ceacda7.flac	agua	agua	n	el agua
+667	spa-5dddbc71.flac	error	error	n	error
+672	spa-5e42fb10.flac	álamo	álamo	undefined	álamo
+677	spa-5ed623d4.flac	copa	copa	n	copa
+682	spa-5f7f9357.flac	ayer	ayer	adv	ayer
+687	spa-6070dae1.flac	estadio	estadio	n	estadio
+692	spa-614c5ef0.flac	discípulo	discípulo	n	discípulo
+697	spa-62049d48.flac	entorno	entorno	n	el entorno
+702	spa-62b97464.flac	hacer clic	hacer clic	undefined	hacer clic
+707	spa-63e980f6.flac	durar	durar	v	durar
+712	spa-652e56f4.flac	dedicación	dedicación	n	dedicación
+717	spa-65e0a929.flac	ficción	ficción	n	la ficción
+722	spa-66696523.flac	contrato	contrato	n	contrato
+727	spa-66d15982.flac	criado	criado	n	el criado
+732	spa-676d5347.flac	restaurante	restaurante	undefined	el restaurante
+737	spa-680df592.flac	entorno	entorno	n	entorno
+742	spa-6884e3b1.flac	agente	agente	n	el agente
+747	spa-696b761f.flac	colocar	colocar	undefined	colocar
+752	spa-6a3c89d2.flac	aprobación	aprobación	n	aprobación
+757	spa-6ad25b43.flac	igual	igual	undefined	al igual
+762	spa-6be6ac51.flac	educación	educación	n	la educación
+767	spa-6d7a1719.flac	dorado	dorado	adj	dorado
+772	spa-6e127045.flac	gobierno	gobierno	undefined	gobierno
+777	spa-6e6b382b.flac	asombro	asombro	n	el asombro
+782	spa-6f08b797.flac	intento	intento	undefined	el intento
+787	spa-6fdb272e.flac	expansión	expansión	n	la expansión
+792	spa-713063ef.flac	apoyar	apoyar	v	apoyar
+797	spa-71bfb358.flac	cerebro	cerebro	n	el cerebro
+802	spa-722db8ca.flac	campeonato	campeonato	n	campeonato
+807	spa-7272f018.flac	dar	dar	v	dar
+812	spa-731722b1.flac	hielo	hielo	undefined	hielo
+817	spa-738d98dc.flac	individuo	individuo	undefined	individuo
+822	spa-74275d3a.flac	ascenso	ascenso	n	ascenso
+827	spa-747c8903.flac	informe	informe	undefined	el informe
+832	spa-754c3dfa.flac	elegante	elegante	adj	elegante
+837	spa-75fb7017.flac	cosa	cosa	n	cosa
+842	spa-76f306e2.flac	complejo	complejo	adj	complejo
+847	spa-77c7e07b.flac	conocer	conocer	v	conocer
+852	spa-7857b2ef.flac	estante	estante	n	el estante
+857	spa-78a033b9.flac	destrucción	destrucción	n	la destrucción
+862	spa-79533b40.flac	semana	semana	undefined	este fin de semana
+867	spa-79ac7b7c.flac	asaltar	asaltar	v	asaltar
+872	spa-7ae6d98b.flac	cada	cada	adj	cada
+877	spa-7b9ac1bc.flac	apellido	apellido	undefined	apellido
+882	spa-7c02fc6a.flac	era	era	n	una era
+887	spa-7d23aa1a.flac	horno	horno	undefined	horno
+892	spa-7de413ca.flac	chaval	chaval	n	chaval
+897	spa-7e75e1d9.flac	informe	informe	undefined	informe
+902	spa-7f1c0516.flac	colectivo	colectivo	n	el colectivo
+907	spa-7f6e9526.flac	inquietud	inquietud	undefined	la inquietud
+912	spa-8012614e.flac	cesar	cesar	v	cesar
+917	spa-805b8ba8.flac	depender	depender	v	depender
+922	spa-8142510a.flac	economía	economía	n	economía
+927	spa-81ef1a04.flac	febrero	febrero	undefined	febrero
+932	spa-82734ddd.flac	afán	afán	n	el afán
+937	spa-8307ddd9.flac	integrar	integrar	undefined	integrar
+942	spa-832a0574.flac	concluir	concluir	v	concluir
+947	spa-83ed657b.flac	gusano	gusano	undefined	gusano
+952	spa-84ee3915.flac	almendro	almendro	undefined	almendro
+957	spa-856b45ac.flac	bote	bote	n	bote
+962	spa-86893fda.flac	calor	calor	n	calor
+967	spa-87545ec2.flac	afectar	afectar	v	afectar
+972	spa-8793fc17.flac	individual	individual	undefined	individual
+977	spa-880dfcfa.flac	departamento	departamento	n	el departamento
+982	spa-8977a4a0.flac	cine	cine	n	cine
+987	spa-8afc60f8.flac	decisión	decisión	n	la decisión
+992	spa-8b9e836e.flac	cocina	cocina	undefined	cocina
+997	spa-8c95a83d.flac	hilo	hilo	undefined	hilo
+1002	spa-8d1b04f8.flac	consejo	consejo	n	consejo
+1007	spa-8d63653c.flac	ciruelo	ciruelo	undefined	ciruelo
+1012	spa-8dd774eb.flac	función	función	undefined	una función
+1017	spa-8ebf31ed.flac	diente	diente	n	diente
+1022	spa-8f7432f3.flac	ergonómico	ergonómico	undefined	ergonómico
+1027	spa-906451b7.flac	enfermedad	enfermedad	n	la enfermedad
+1032	spa-9179faa1.flac	ejercer	ejercer	v	ejercer
+1037	spa-91bfcbda.flac	función	función	undefined	función
+1042	spa-930c24c3.flac	ámbito	ámbito	n	ámbito
+1047	spa-94272a3c.flac	inmediato	inmediato	undefined	inmediato
+1052	spa-95353700.flac	aceptar	aceptar	v	aceptar
+1057	spa-961c8075.flac	ante	ante	undefined	ante
+581	spa-519b2194.flac	dato	dato	daton	datos
+586	spa-5202ef26.flac	extensión	extensión	n	extensión
+591	spa-528ed658.flac	celo	celo	n	celo
+596	spa-5377e92b.flac	correcto	correcto	adj	correcto
+601	spa-545b4476.flac	edad	edad	n	edad
+606	spa-5536444d.flac	característica	característica	n	una característica
+611	spa-563e4a4c.flac	determinación	determinación	n	la determinación
+616	spa-5760e672.flac	cima	cima	n	la cima
+621	spa-57b84d93.flac	dirigente	dirigente	n	el dirigente
+626	spa-5807b461.flac	fuente	fuente	undefined	la fuente
+631	spa-587efbcb.flac	formación	formación	n	la formación
+636	spa-5973b7ca.flac	cama	cama	n	la cama
+641	spa-5a212403.flac	etapa	etapa	n	una etapa
+646	spa-5ac36e96.flac	criatura	criatura	n	criatura
+651	spa-5b647c19.flac	calle	calle	n	una calle
+656	spa-5bcc2d21.flac	delantera	delantera	n	delantera
+661	spa-5cdfb4eb.flac	microprocesador	microprocesador	undefined	el microprocesador
+666	spa-5dcfb24d.flac	administración	administración	n	administración
+671	spa-5e32c418.flac	cámara	cámara	n	una cámara
+676	spa-5ece0187.flac	detener	detener	v	detener
+681	spa-5f510138.flac	humor	humor	undefined	el humor
+686	spa-602155a6.flac	frenar	frenar	v	frenar
+691	spa-61421e3f.flac	agente	agente	n	agente
+696	spa-61b5b173.flac	ave	ave	n	un ave
+701	spa-62b3089a.flac	honor	honor	undefined	el honor
+706	spa-63e13aee.flac	falta	falta	n	falta
+711	spa-651d6113.flac	circunstancia	circunstancia	n	una circunstancia
+716	spa-65cdeb1a.flac	bomba	bomba	n	la bomba
+721	spa-6667ea65.flac	fuente	fuente	undefined	fuente
+726	spa-66cb81cd.flac	grito	grito	undefined	un grito
+731	spa-672cfd45.flac	empleo	empleo	n	empleo
+736	spa-67fa3f77.flac	decidir	decidir	v	decidir
+741	spa-686aa2d5.flac	apartado	apartado	n	un apartado
+746	spa-69343b17.flac	apoyo	apoyo	n	apoyo
+751	spa-6a306064.flac	geógrafo	geógrafo	undefined	geógrafo
+756	spa-6aab231f.flac	animal	animal	n	animal
+761	spa-6be434fd.flac	bomba	bomba	n	bomba
+766	spa-6d6b1548.flac	cargo	cargo	n	un
+771	spa-6e03f996.flac	hasta	hasta	undefined	hasta que
+776	spa-6e4f8602.flac	atención	atención	n	la atención
+781	spa-6f068365.flac	dirigente	dirigente	n	dirigente
+786	spa-6fce1b25.flac	lenguaje	lenguaje	undefined	el lenguaje HTML
+791	spa-70b99284.flac	confrontación	confrontación	n	confrontación
+796	spa-71bed52f.flac	casi	casi	adv	casi
+801	spa-7226ba38.flac	arreglar	arreglar	undefined	arreglar el cuarto
+806	spa-72718baf.flac	incrementar	incrementar	undefined	incrementar
+811	spa-72d32a26.flac	disciplina	disciplina	n	disciplina
+816	spa-737fff1e.flac	anunciar	anunciar	v	anunciar
+821	spa-73e2fbd5.flac	hotel	hotel	undefined	el hotel
+826	spa-7476b6ac.flac	cielo	cielo	n	el cielo
+831	spa-75332354.flac	cancelar	cancelar	undefined	cancelar
+836	spa-75de94ba.flac	atacar	atacar	v	atacar
+841	spa-76ad7039.flac	análisis	análisis	n	análisis
+846	spa-7724e08f.flac	espectáculo	espectáculo	n	el espectáculo
+851	spa-7834b20b.flac	ello	ello	undefined	ello
+856	spa-789ce152.flac	director	director	n	el director
+861	spa-792b422e.flac	bola	bola	n	una bola
+866	spa-79a97fca.flac	algodón	algodón	n	algodón
+871	spa-7a7c7917.flac	autoridad	autoridad	n	la autoridad
+876	spa-7b68d8f1.flac	flaco	flaco	adj	flaco
+881	spa-7bdfbb86.flac	asiento	asiento	n	el asiento
+886	spa-7d16c5b0.flac	delegación	delegación	n	delegación
+891	spa-7dcc50d3.flac	cochecito	cochecito	undefined	cochecito
+896	spa-7e2e35e0.flac	ascenso	ascenso	n	el ascenso
+901	spa-7eecc6db.flac	bóveda	bóveda	n	una bóveda
+906	spa-7f655d1d.flac	casa	casa	n	casa
+911	spa-800170a8.flac	clínica	clínica	n	clínica
+916	spa-8051f5a6.flac	comprometerse	comprometerse	undefined	comprometerse
+921	spa-80df0f58.flac	fotografía	fotografía	n	la fotografía
+926	spa-81ce9aee.flac	arca	arca	n	arca
+931	spa-8223c5e2.flac	aguantar	aguantar	v	aguantar
+936	spa-82e78bdb.flac	acuerdo	acuerdo	n	el acuerdo
+941	spa-8320da61.flac	arte	arte	n	arte
+946	spa-83aff28f.flac	gato	gato	undefined	el gato
+951	spa-84ca8eb5.flac	aguardar	aguardar	v	aguardar
+956	spa-855a96c2.flac	barca	barca	n	barca
+961	spa-8661408f.flac	afrontar	afrontar	v	afrontar
+966	spa-87202049.flac	compañía	compañía	n	compañía
+971	spa-8791eb67.flac	calidad	calidad	n	calidad
+976	spa-880b462b.flac	alzar	alzar	v	alzar
+981	spa-895f0bc8.flac	aliento	aliento	n	el aliento
+986	spa-8a589b6c.flac	cavernoso	cavernoso	adj	cavernoso
+991	spa-8b7d36cd.flac	contra	contra	a	contra
+996	spa-8c27b563.flac	campaña	campaña	n	campaña
+1001	spa-8ccb04e3.flac	crío	crío	n	crío
+1006	spa-8d60498f.flac	escalón	escalón	n	escalón
+1011	spa-8dc00768.flac	estrella	estrella	n	estrella
+1016	spa-8ea8b8de.flac	actualidad	actualidad	n	actualidad
+1021	spa-8f1e9a7a.flac	industrial	industrial	undefined	industrial
+1026	spa-904f0a52.flac	campaña	campaña	n	una campaña
+1031	spa-91406075.flac	diseñar	diseñar	v	diseñar
+1036	spa-91af0f27.flac	impacto	impacto	undefined	impacto
+1041	spa-929c95f6.flac	cariño	cariño	n	cariño
+1046	spa-93ea6027.flac	foto	foto	n	una foto
+1051	spa-94d146f5.flac	configurar	configurar	undefined	configurar
+1056	spa-95fb0103.flac	incluso	incluso	undefined	incluso
+1061	spa-97205876.flac	abuelo	abuelo	undefined	abuelo
+584	spa-51b6bd10.flac	dirección	dirección	n	la dirección
+589	spa-522627a5.flac	cine	cine	n	el cine
+594	spa-534b4efb.flac	causar	causar	v	causar
+599	spa-54117419.flac	cabello	cabello	n	el cabello
+604	spa-5517945f.flac	clasificar	clasificar	v	clasificar
+609	spa-558ded0a.flac	globo	globo	undefined	globo
+614	spa-56ab865a.flac	formulario	formulario	n	el formulario
+619	spa-5784069e.flac	álamo	álamo	undefined	el álamo
+624	spa-57f90508.flac	acomodación	acomodación	n	acomodación
+629	spa-587407c2.flac	jugador	jugador	undefined	el jugador
+634	spa-592024bf.flac	hecho	hecho	undefined	hecho
+639	spa-5a0b88ce.flac	corte	corte	n	corte
+644	spa-5a9f19eb.flac	arca	arca	n	el arca
+649	spa-5ae82edc.flac	contribución	contribución	n	una contribución
+654	spa-5bb4eebb.flac	grasa	grasa	undefined	grasa
+659	spa-5c6d28ce.flac	criar	criar	v	criar
+664	spa-5d88de64.flac	admitir	admitir	v	admitir
+669	spa-5e181cc3.flac	cabello	cabello	n	cabello
+674	spa-5e725cd8.flac	filósofo	filósofo	undefined	filósofo
+679	spa-5ef57190.flac	grieta	grieta	undefined	grieta
+684	spa-6015825e.flac	guiño	guiño	undefined	guiño
+689	spa-60c62934.flac	cobre	cobre	n	el cobre
+694	spa-6177c480.flac	cera	cera	n	cera
+699	spa-620f5adf.flac	cual	cual	a	cual
+704	spa-631fde71.flac	doscientas	doscientas	undefined	doscientas
+709	spa-646250f1.flac	asombro	asombro	n	asombro
+714	spa-655bed39.flac	alquiler	alquiler	undefined	alquiler
+719	spa-65eef374.flac	amor	amor	n	el amor
+724	spa-66ad95ed.flac	apariencia	apariencia	n	la apariencia
+729	spa-671a42d8.flac	estación	estación	n	estación
+734	spa-67b4ddde.flac	asco	asco	n	asco
+739	spa-68428625.flac	eso	eso	a	eso
+744	spa-68e2d5c0.flac	calcular	calcular	v	calcular
+749	spa-69c240c4.flac	acertado	acertado	adj	acertado
+754	spa-6a79b23b.flac	estadio	estadio	n	el estadio
+759	spa-6b47735a.flac	garzón	garzón	undefined	el garzón
+764	spa-6c8c3909.flac	clase	clase	n	una clase
+769	spa-6dc8e509.flac	falta	falta	n	la falta
+774	spa-6e2c3681.flac	contar	contar	v	contar
+779	spa-6ea13098.flac	celda	celda	n	celda
+784	spa-6fbe56f0.flac	biblioteca	biblioteca	n	una biblioteca
+789	spa-702e50ea.flac	descartable	descartable	undefined	descartable
+794	spa-714a5441.flac	investigación	investigación	undefined	investigación
+799	spa-71d6d35c.flac	asiento	asiento	n	asiento
+804	spa-724a9849.flac	historiador	historiador	undefined	historiador
+809	spa-7282b806.flac	alfiler	alfiler	n	el alfiler
+814	spa-73428427.flac	disculpe	disculpe	undefined	disculpe
+819	spa-73ab2ff4.flac	comunidad	comunidad	n	una comunidad
+824	spa-74556c6c.flac	ángulo	ángulo	n	ángulo
+829	spa-750b4239.flac	edificar	edificar	v	edificar
+834	spa-758f3c4b.flac	dueña	dueña	n	la dueña
+839	spa-760e70dd.flac	vez	vez	undefined	en vez de
+844	spa-76f8fa5a.flac	caber	caber	undefined	caber
+849	spa-77dee1d1.flac	banco	banco	n	banco
+854	spa-788b1116.flac	delegación	delegación	n	una delegación
+859	spa-791be393.flac	cambio	cambio	n	el cambio
+864	spa-7979bdfd.flac	entrar	entrar	undefined	entrar en la dirección
+869	spa-7a32958a.flac	bóveda	bóveda	n	bóveda
+874	spa-7b240b89.flac	desviación	desviación	n	la desviación
+879	spa-7baa6ad2.flac	coincidir	coincidir	v	coincidir
+884	spa-7ca0be27.flac	bello	bello	adj	bello
+889	spa-7d92e79d.flac	enfadado	enfadado	undefined	enfadado
+894	spa-7e00c09b.flac	duodécimo	duodécimo	undefined	duodécimo
+899	spa-7eb391a5.flac	cuadrado	cuadrado	adj	cuadrado
+904	spa-7f4e44c2.flac	ingresar	ingresar	undefined	ingresar
+909	spa-7feff0c2.flac	afirmación	afirmación	n	afirmación
+914	spa-8037aa27.flac	noche	noche	undefined	esta noche
+919	spa-80b2c368.flac	humo	humo	undefined	humo
+924	spa-81a2271b.flac	cocear	cocear	v	cocear
+929	spa-820681b5.flac	bota	bota	n	bota
+934	spa-82a42e61.flac	causa	causa	n	una causa
+939	spa-8319d2b3.flac	imagen	imagen	undefined	imagen
+944	spa-83566312.flac	aliento	aliento	n	aliento
+949	spa-842c498a.flac	competencia	competencia	n	competencia
+954	spa-8528b15c.flac	duda	duda	n	una duda
+959	spa-860e589d.flac	desear	desear	v	desear
+964	spa-86cfe987.flac	cero	cero	n	cero
+969	spa-8779cc63.flac	diente	diente	n	el diente
+974	spa-87bb5035.flac	estallido	estallido	n	el estallido
+979	spa-892cd642.flac	asociación	asociación	n	asociación
+984	spa-89e64fea.flac	iniciar	iniciar	undefined	iniciar
+989	spa-8b2b48b1.flac	barbilla	barbilla	n	barbilla
+994	spa-8bff2620.flac	destino	destino	n	el destino
+999	spa-8ca63ab4.flac	día	día	undefined	algún día
+1004	spa-8d328815.flac	casa	casa	n	la casa
+1009	spa-8d884d63.flac	geógrafa	geógrafa	undefined	geógrafa
+1014	spa-8e86059e.flac	ciudad	ciudad	n	ciudad
+1019	spa-8f0ae08e.flac	cinco	cinco	undefined	cinco
+1024	spa-900fc1ec.flac	investigación	investigación	undefined	la investigación
+1029	spa-90ec4f82.flac	coger	coger	v	coger
+1034	spa-91a8b859.flac	estrella	estrella	n	una estrella
+1039	spa-91fc63d4.flac	cambiar	cambiar	v	cambiar
+1044	spa-93240902.flac	escenario	escenario	n	el escenario
+1049	spa-94436dc8.flac	encerarlo	encerarlo	undefined	encerarlo
+1054	spa-95c62a5f.flac	cabeza	cabeza	n	la cabeza
+1059	spa-9707725c.flac	institución	institución	undefined	la institución
+1064	spa-9792a86b.flac	experto	experto	n	experto
+600	spa-5411d7cb.flac	abril	abril	undefined	abril
+605	spa-55192f2c.flac	alfombra	alfombra	undefined	alfombra
+610	spa-559d315c.flac	grasa	grasa	undefined	la grasa
+615	spa-57296db5.flac	acción	acción	n	la acción
+620	spa-579f0154.flac	fotografía	fotografía	n	fotografía
+625	spa-5803f4d3.flac	aliviada	aliviada	undefined	aliviada
+630	spa-5877e603.flac	escritura	escritura	undefined	escritura pública
+635	spa-5956e3a2.flac	pesar	pesar	undefined	a pesar de que
+640	spa-5a1e4f6e.flac	difícil	difícil	adj	difícil
+645	spa-5aa9e0f8.flac	alterar	alterar	v	alterar
+650	spa-5aec9749.flac	cámara	cámara	n	cámara
+655	spa-5bc9e2f9.flac	coste	coste	n	coste
+660	spa-5cb0b687.flac	amaestrar	amaestrar	v	amaestrar
+665	spa-5d9e6a82.flac	cero	cero	n	el cero
+670	spa-5e262371.flac	cuello	cuello	n	el cuello
+675	spa-5e7cbd8c.flac	fino	fino	adj	fino
+680	spa-5f355d94.flac	alcanzar	alcanzar	v	alcanzar
+685	spa-601941b9.flac	consciente	consciente	adj	consciente
+690	spa-60fcb18f.flac	habitación	habitación	undefined	la habitación
+695	spa-618a542e.flac	campana	campana	n	la campana
+700	spa-627ad98f.flac	atardecer	atardecer	n	atardecer
+705	spa-6394cf26.flac	barbilla	barbilla	n	la barbilla
+710	spa-6501df4d.flac	intento	intento	undefined	intento
+715	spa-65c12d73.flac	baño	baño	n	el baño
+720	spa-665648e9.flac	color	color	n	color
+725	spa-66ba25fa.flac	auto	auto	n	auto
+730	spa-67204501.flac	un scanner	un scanner	undefined	formatear un disquete
+735	spa-67f10f6a.flac	garrote	garrote	undefined	garrote
+740	spa-68676e33.flac	aumentar	aumentar	v	aumentar
+745	spa-6903dc90.flac	teatro	teatro	undefined	el teatro
+750	spa-69d36873.flac	instruir	instruir	undefined	instruir
+755	spa-6aa4db21.flac	evolución	evolución	n	la evolución
+760	spa-6bbbc6a4.flac	aplicación	aplicación	n	una aplicación
+765	spa-6d34cd5f.flac	humedad	humedad	undefined	la humedad
+770	spa-6df867b0.flac	garrote	garrote	undefined	el garrote
+775	spa-6e39f78a.flac	cuerda	cuerda	n	cuerda
+780	spa-6eea00cb.flac	empleo	empleo	n	el empleo
+785	spa-6fccb3c7.flac	alimento	alimento	n	un alimento
+790	spa-70987571.flac	abuela	abuela	undefined	abuela
+795	spa-718b6d61.flac	calzar	calzar	undefined	calzar
+800	spa-71dc932a.flac	harto	harto	undefined	estar harto
+805	spa-725eda35.flac	estante	estante	n	estante
+810	spa-728f0236.flac	calentar	calentar	v	calentar
+815	spa-735bb071.flac	fuerte	fuerte	undefined	fuerte
+820	spa-73e2ad01.flac	bondad	bondad	n	la bondad
+825	spa-746ef596.flac	industria	industria	undefined	industria
+830	spa-7510a3cf.flac	funcionario	funcionario	undefined	funcionario
+835	spa-75d2d02b.flac	boca	boca	n	la boca
+840	spa-763ccb0f.flac	cuota	cuota	n	cuota
+845	spa-7704add8.flac	ángulo	ángulo	n	un ángulo
+850	spa-77f3fea5.flac	casado	casado	adj	casado
+855	spa-788bd0dc.flac	alfiler	alfiler	n	alfiler
+860	spa-791d933c.flac	cuyo	cuyo	a	cuyo
+865	spa-79a45a30.flac	discutir	discutir	v	discutir
+870	spa-7a5c4827.flac	diez	diez	undefined	diez
+875	spa-7b425f34.flac	dudar	dudar	v	dudar
+880	spa-7bb6db82.flac	cerebro	cerebro	n	cerebro
+885	spa-7cf34051.flac	internet	internet	undefined	internet
+890	spa-7d9e74f6.flac	gustar	gustar	undefined	gustar
+895	spa-7e11fa38.flac	acto	acto	n	acto
+900	spa-7ec2f647.flac	correo	correo	undefined	el correo
+905	spa-7f623371.flac	conducta	conducta	n	conducta
+910	spa-7ffaac2b.flac	esposa	esposa	n	la esposa
+915	spa-8037eb40.flac	esencia	esencia	n	la esencia
+920	spa-80c24f20.flac	calidad	calidad	n	la calidad
+925	spa-81c6415b.flac	caro	caro	adj	caro
+930	spa-820cd1f4.flac	con	con	undefined	con ellas
+935	spa-82cc1aea.flac	afección	afección	n	afección
+940	spa-831df1aa.flac	argumento	argumento	n	un argumento
+945	spa-839268f4.flac	albaricoquero	albaricoquero	undefined	albaricoquero
+950	spa-843db195.flac	clavo	clavo	n	clavo
+955	spa-853c188e.flac	poco	poco	undefined	hace poco
+960	spa-86367fbe.flac	división	división	n	división
+965	spa-87126c22.flac	consejo	consejo	n	el consejo
+970	spa-87850523.flac	boca	boca	n	boca
+975	spa-87e88e30.flac	impedir	impedir	undefined	impedir
+980	spa-894366f1.flac	domingo	domingo	undefined	domingo
+985	spa-8a2b98f5.flac	gusano	gusano	undefined	el gusano
+990	spa-8b734925.flac	barca	barca	n	la barca
+995	spa-8c0e9bd3.flac	grupo	grupo	undefined	grupo
+1000	spa-8cb102e4.flac	asociación	asociación	n	una asociación
+1005	spa-8d5f2ebe.flac	ficción	ficción	n	ficción
+1010	spa-8d889b9d.flac	animal	animal	n	un animal
+1015	spa-8ea7296b.flac	fácil	fácil	adj	fácil
+1020	spa-8f1a1e20.flac	calificación	calificación	n	calificación
+1025	spa-902402f1.flac	contener	contener	v	contener
+1030	spa-90f724b1.flac	horrorizar	horrorizar	undefined	horrorizar
+1035	spa-91ae1cd7.flac	comida	comida	n	comida
+1040	spa-92687864.flac	barba	barba	n	la barba
+1045	spa-93d32a05.flac	consistente	consistente	adj	consistente
+1050	spa-94a4d17e.flac	establecimiento	establecimiento	n	establecimiento
+1055	spa-95faa86c.flac	asistencia	asistencia	n	la asistencia
+1060	spa-971a01d4.flac	gafas	gafas	undefined	gafas
+1065	spa-97ce346b.flac	carro	carro	n	un carro
+1070	spa-984b53f4.flac	aceite	aceite	n	el aceite
+1075	spa-98e86bb0.flac	beneficio	beneficio	undefined	beneficio de justicia gratuita
+1080	spa-9a86499b.flac	corazón	corazón	n	un corazón
+1062	spa-9738cb48.flac	interfaz	interfaz	undefined	el interfaz
+1067	spa-9811855a.flac	asalto	asalto	n	asalto
+1072	spa-9895fd2c.flac	cariño	cariño	n	el cariño
+1077	spa-99132985.flac	descansar	descansar	undefined	descansar en una hamaca
+1082	spa-9ab6027e.flac	espacio	espacio	n	el espacio
+1087	spa-9b942ed1.flac	domicilio	domicilio	n	domicilio
+1092	spa-9c3ea4e0.flac	atascos	atascos	undefined	atascos
+1097	spa-9cffbfd2.flac	courtoisie|gentillesse|amabilité	courtoisie|gentillesse|amabilité	undefined	cortés
+1102	spa-9e29e036.flac	empezar	empezar	v	empezar
+1107	spa-9ee6a5f8.flac	abuelo	abuelo	undefined	el abuelo
+1112	spa-9f8bdacf.flac	agradable	agradable	adj	agradable
+1117	spa-a05229ae.flac	chica	chica	n	una chica
+1122	spa-a0fb4d38.flac	contento	contento	adj	contento
+1127	spa-a1981cd4.flac	coche	coche	n	coche
+1132	spa-a2040768.flac	azucarar	azucarar	v	azucarar
+1137	spa-a2e3b281.flac	glutinoso	glutinoso	undefined	glutinoso
+1142	spa-a3c39593.flac	alimento	alimento	n	alimento
+1147	spa-a482c408.flac	hueso	hueso	undefined	hueso
+1152	spa-a537337a.flac	cima	cima	n	cima
+1157	spa-a5839ee6.flac	doce	doce	undefined	doce
+1162	spa-a60c917e.flac	edad	edad	n	la edad
+1167	spa-a6f0bbb3.flac	aplastar	aplastar	v	aplastar
+1172	spa-a7bf2aea.flac	garganta	garganta	undefined	la garganta
+1177	spa-a8a6bf2a.flac	cerrado	cerrado	adj	cerrado
+1182	spa-a945efb1.flac	carga	carga	n	una carga
+1187	spa-a9dbe9b6.flac	alcance	alcance	n	el alcance
+1192	spa-aadf6d38.flac	enemistarse	enemistarse	undefined	enemistarse
+1197	spa-abb55afe.flac	espeso	espeso	adj	espeso
+1202	spa-ac640585.flac	desviación	desviación	n	desviación
+1207	spa-acd380c8.flac	forastero	forastero	adj	forastero
+1212	spa-adf35cf0.flac	gris	gris	undefined	gris
+1217	spa-af900ade.flac	algún	algún	adj	algún
+1222	spa-afe422a6.flac	esposo	esposo	n	el esposo
+1227	spa-b0874165.flac	estudiar	estudiar	v	estudiar
+1232	spa-b1ef764a.flac	delinquir	delinquir	undefined	delinquir
+1237	spa-b37e5447.flac	esponja	esponja	n	la esponja
+1242	spa-b42df000.flac	esponja	esponja	n	esponja
+1247	spa-b53235cc.flac	cojín	cojín	n	un cojín
+1252	spa-b5d87187.flac	gota	gota	undefined	gota
+1257	spa-b6aa8658.flac	diecinueve	diecinueve	undefined	diecinueve
+1262	spa-b7bcbf83.flac	habitación	habitación	undefined	habitación
+1267	spa-b84aef8d.flac	billete	billete	n	un billete
+1272	spa-b90bb444.flac	bandera	bandera	n	bandera
+1277	spa-b9a3b37c.flac	herida	herida	undefined	herida
+1282	spa-ba01c597.flac	encatar	encatar	undefined	encatar
+1287	spa-baec675a.flac	cercano	cercano	adj	cercano
+1292	spa-bb1c0be7.flac	costo	costo	n	costo
+1297	spa-bcc6bfa6.flac	cortijo	cortijo	n	cortijo
+1302	spa-bd2d5e03.flac	ingenio	ingenio	undefined	ingenio
+1307	spa-bda6a8bb.flac	alfombra	alfombra	undefined	la alfombra
+1312	spa-be3c3765.flac	entrar	entrar	v	entrar
+1317	spa-bebf7071.flac	amor	amor	n	amor
+1322	spa-bf7811a6.flac	dominación	dominación	n	dominación
+1327	spa-bfcd8b9e.flac	espectáculo	espectáculo	n	espectáculo
+1332	spa-c171a96a.flac	átomo	átomo	n	átomo
+1337	spa-c211e166.flac	enero	enero	undefined	enero
+1342	spa-c30edf1a.flac	alambre	alambre	n	el alambre
+1347	spa-c3ed244f.flac	estipular	estipular	undefined	estipular
+1352	spa-c49c530b.flac	equipo	equipo	n	equipo
+1357	spa-c4f229ca.flac	escala	escala	n	escala
+1362	spa-c58d226b.flac	cuidar	cuidar	v	cuidar
+1367	spa-c6882d41.flac	cocinar	cocinar	undefined	cocinar
+1372	spa-c701b136.flac	ataque	ataque	n	ataque
+1377	spa-c907b7c0.flac	alambre	alambre	n	alambre
+1382	spa-c96b1376.flac	instrumento	instrumento	undefined	el instrumento
+1387	spa-ca27f46f.flac	comportamiento	comportamiento	n	el comportamiento
+1392	spa-cab20ac9.flac	fragmento	fragmento	n	un fragmento
+1397	spa-cb18812e.flac	falso	falso	adj	falso
+1402	spa-cbad8b06.flac	hoja	hoja	undefined	la hoja
+1407	spa-cc0c4f8e.flac	ingeniera	ingeniera	undefined	ingeniera
+1412	spa-cc96ccdc.flac	desde	desde	a	desde
+1417	spa-cd52f619.flac	ampliación	ampliación	n	la ampliación
+1422	spa-ce272bee.flac	capítulo	capítulo	n	capítulo
+1427	spa-cec74cb8.flac	ataque	ataque	n	el ataque
+1432	spa-cf767477.flac	deuda	deuda	n	deuda
+1437	spa-d02b58a6.flac	cubo	cubo	n	cubo
+1442	spa-d12caefe.flac	conferencia	conferencia	n	conferencia
+1447	spa-d1996436.flac	adquisición	adquisición	n	la adquisición
+1452	spa-d244b30e.flac	anochecer	anochecer	n	anochecer
+1457	spa-d4025ee6.flac	debate	debate	n	el debate
+1462	spa-d49d6162.flac	copia	copia	n	una copia
+1467	spa-d5027767.flac	fruto	fruto	n	fruto
+1472	spa-d541bc69.flac	chica	chica	n	chica
+1477	spa-d5b37dee.flac	cargar	cargar	v	cargar
+1482	spa-d683b5d2.flac	barra	barra	n	barra
+1487	spa-d6f58fb1.flac	ala	ala	n	un ala
+1492	spa-d79e26c8.flac	cuchillo	cuchillo	n	el cuchillo
+1497	spa-d8f52aae.flac	grano	grano	undefined	un grano
+1502	spa-d998fa7d.flac	equilibrio	equilibrio	n	el equilibrio
+1507	spa-da26e887.flac	despertador	despertador	undefined	despertador
+1512	spa-db00371d.flac	humedecer	humedecer	undefined	humedecer
+1517	spa-db9b952b.flac	defensa	defensa	n	la defensa
+1522	spa-dc567a76.flac	carga	carga	n	carga
+1527	spa-dd0e3034.flac	experiencia	experiencia	n	experiencia
+1532	spa-ddc4a368.flac	debate	debate	n	debate
+1537	spa-dea1d063.flac	distancia	distancia	n	distancia
+1542	spa-df4ebcc3.flac	corcho	corcho	n	corcho
+1068	spa-982767b3.flac	apretar	apretar	undefined	apretar un botón
+1073	spa-98bbcc68.flac	área	área	n	el área
+1078	spa-998a0849.flac	feliz	feliz	adj	feliz
+1083	spa-9ac7ab48.flac	chaval	chaval	n	un chaval
+1088	spa-9ba667fd.flac	impacto	impacto	undefined	el impacto
+1093	spa-9c41a783.flac	barba	barba	n	barba
+1098	spa-9d459649.flac	dudo	dudo	undefined	dudo que
+1103	spa-9e29f0b5.flac	igual	igual	undefined	igual
+1108	spa-9ef17355.flac	hueco	hueco	undefined	el hueco
+1113	spa-9f8c9f0c.flac	ella	ella	a	ella
+1118	spa-a05242f9.flac	finca	finca	undefined	finca
+1123	spa-a114ae83.flac	hembra	hembra	undefined	hembra
+1128	spa-a1c68ee0.flac	acoso	acoso	undefined	el acoso
+1133	spa-a227a712.flac	civilización	civilización	n	civilización
+1138	spa-a32ae027.flac	domicilio	domicilio	n	el domicilio
+1143	spa-a3d2816c.flac	alcance	alcance	n	alcance
+1148	spa-a4c731f5.flac	dolor	dolor	n	el dolor
+1153	spa-a540793d.flac	acto	acto	n	el acto
+1158	spa-a591b2c6.flac	dueño	dueño	n	el dueño
+1163	spa-a622df28.flac	esposo	esposo	n	esposo
+1168	spa-a71aa92e.flac	boca	boca	undefined	de boca en boca
+1173	spa-a7c35d4f.flac	castaño	castaño	undefined	castaño
+1178	spa-a8affece.flac	afirmación	afirmación	n	la afirmación
+1183	spa-a9492df0.flac	acá	acá	adv	acá
+1188	spa-a9e6d265.flac	esperar	esperar	v	esperar
+1193	spa-ab2462c2.flac	cama	cama	n	cama
+1198	spa-abe309ed.flac	historia	historia	undefined	la historia
+1203	spa-ac78bb68.flac	contigo	contigo	undefined	contigo
+1208	spa-ad1ccd76.flac	disculpar	disculpar	undefined	disculpar
+1213	spa-ae1eeaa8.flac	abrir	abrir	v	abrir
+1218	spa-afb395f0.flac	abandonar	abandonar	v	abandonar
+1223	spa-afe79fe0.flac	construcción	construcción	n	la construcción
+1228	spa-b09597ae.flac	aprender	aprender	v	aprender
+1233	spa-b2137b56.flac	dieciocho	dieciocho	undefined	dieciocho
+1238	spa-b3a9f3c6.flac	arrancar	arrancar	undefined	arrancar
+1243	spa-b4dd4987.flac	avión	avión	n	avión
+1248	spa-b5394c76.flac	adelante	adelante	adv	adelante
+1253	spa-b5f3836d.flac	acudir	acudir	undefined	acudir
+1258	spa-b6cfd77c.flac	cortijo	cortijo	n	el cortijo
+1263	spa-b7f810c6.flac	dieciséis	dieciséis	undefined	dieciséis
+1268	spa-b8565625.flac	bavarder	bavarder	undefined	chanza
+1273	spa-b9105426.flac	hogareño	hogareño	undefined	hogareño
+1278	spa-b9b879c6.flac	echar humo	echar humo	v	echar humo
+1283	spa-ba65e1b0.flac	deuda	deuda	n	una deuda
+1288	spa-baf86154.flac	cuero	cuero	n	el cuero
+1293	spa-bb1cff71.flac	explicar	explicar	v	explicar
+1298	spa-bcd6f7fa.flac	herida	herida	undefined	una herida
+1303	spa-bd5877cc.flac	aproximación	aproximación	n	aproximación
+1308	spa-bdb93be4.flac	carta	carta	n	carta
+1313	spa-be641a8e.flac	económico	económico	adj	económico
+1318	spa-bf03e3e7.flac	delicado	delicado	adj	delicado
+1323	spa-bf8c6994.flac	hermana	hermana	undefined	hermana
+1328	spa-c01eef96.flac	amarillo	amarillo	adj	amarillo
+1333	spa-c197254b.flac	cola	cola	n	una cola
+1338	spa-c220c4f9.flac	isla	isla	undefined	isla
+1343	spa-c33b7bbb.flac	cuidado	cuidado	n	el cuidado
+1348	spa-c417ab6b.flac	calificación	calificación	n	la calificación
+1353	spa-c4a8d5da.flac	desconcierto	desconcierto	n	el desconcierto
+1358	spa-c4fa44bd.flac	beber	beber	v	beber
+1363	spa-c597fbec.flac	flora	flora	n	flora
+1368	spa-c6924cc5.flac	ingreso	ingreso	undefined	el ingreso
+1373	spa-c7902aec.flac	físico	físico	adj	físico
+1378	spa-c9321361.flac	cuidado	cuidado	n	cuidado
+1383	spa-c9d48448.flac	hierba	hierba	undefined	la hierba
+1388	spa-ca3b40ec.flac	curso	curso	n	curso
+1393	spa-cac1cff5.flac	siempre	siempre	undefined	de siempre
+1398	spa-cb3bc49d.flac	apartamento	apartamento	n	apartamento
+1403	spa-cbadaeeb.flac	costo	costo	n	el costo
+1408	spa-cc4fb936.flac	instrucción	instrucción	undefined	instrucción
+1413	spa-cc9b241f.flac	ingreso	ingreso	undefined	ingreso
+1418	spa-cd5aae85.flac	equipo	equipo	undefined	el equipo
+1423	spa-ce29364a.flac	general	general	undefined	general
+1428	spa-cee17444.flac	esas	esas	a	esas
+1433	spa-cf8bc873.flac	citar	citar	v	citar
+1438	spa-d0e43bd8.flac	dentro	dentro	a	dentro de
+1443	spa-d131f16c.flac	descubrir	descubrir	v	descubrir
+1448	spa-d1c9abcc.flac	decoración	decoración	n	la decoración
+1453	spa-d2b4551f.flac	parecer	parecer	undefined	al parecer
+1458	spa-d4270c97.flac	distribución	distribución	n	distribución
+1463	spa-d4a1eb83.flac	cesto	cesto	n	cesto
+1468	spa-d50a947e.flac	gente	gente	undefined	gente
+1473	spa-d5679dda.flac	entender	entender	v	entender
+1478	spa-d5f0f8d4.flac	insecto	insecto	undefined	el insecto
+1483	spa-d687b3bc.flac	discurrir	discurrir	v	discurrir
+1488	spa-d6f83b3a.flac	elástico	elástico	adj	elástico
+1493	spa-d8264a8d.flac	asistencia	asistencia	n	asistencia
+1498	spa-d8f86813.flac	adquisición	adquisición	n	adquisición
+1503	spa-d9d9bf52.flac	empleado	empleado	adj	empleado
+1508	spa-da3ecbb1.flac	carácter	carácter	n	el carácter
+1513	spa-db14f993.flac	bisabuelos	bisabuelos	undefined	bisabuelos
+1518	spa-dbc58d38.flac	conocimiento	conocimiento	n	el conocimiento
+1523	spa-dcb8b61b.flac	frecuentemente	frecuentemente	adv	frecuentemente
+1528	spa-dd548a39.flac	estornudo	estornudo	n	el estornudo
+1533	spa-de13d4ed.flac	bulto	bulto	n	el bulto
+1538	spa-deab9941.flac	cuantía	cuantía	n	la cuantía
+1069	spa-98489fa9.flac	considerar	considerar	v	considerar
+1074	spa-98dd701a.flac	caso	caso	n	caso
+1079	spa-9a307ddf.flac	daño	daño	n	daño
+1084	spa-9ad129b2.flac	curvatura	curvatura	n	la curvatura
+1089	spa-9bb5863e.flac	bocadillo	bocadillo	undefined	bocadillo
+1094	spa-9c447d46.flac	elemento	elemento	n	un elemento
+1099	spa-9d5727eb.flac	doña	doña	undefined	doña
+1104	spa-9e3e7795.flac	incremento	incremento	undefined	incremento
+1109	spa-9f2ab9dc.flac	distribución	distribución	n	la distribución
+1114	spa-9f9a7bcc.flac	escoger	escoger	v	escoger
+1119	spa-a063fcd2.flac	cadena	cadena	n	cadena
+1124	spa-a117838a.flac	estampilla	estampilla	undefined	estampilla
+1129	spa-a1d5f1ce.flac	inversión	inversión	undefined	inversión
+1134	spa-a2614fff.flac	controlar	controlar	v	controlar
+1139	spa-a33dd00d.flac	compromiso	compromiso	n	el compromiso
+1144	spa-a3e54028.flac	descanso	descanso	n	descanso
+1149	spa-a50b63a0.flac	fábrica	fábrica	n	la fábrica
+1154	spa-a54724d4.flac	mediodía	mediodía	undefined	al mediodía
+1159	spa-a5b3d26b.flac	fruto	fruto	n	el fruto
+1164	spa-a6789002.flac	fragmento	fragmento	n	fragmento
+1169	spa-a73b6ec1.flac	igualar	igualar	undefined	igualar
+1174	spa-a7e0f386.flac	baobab	baobab	undefined	baobab
+1179	spa-a8c64066.flac	preciso	preciso	undefined	es preciso
+1184	spa-a95119c2.flac	colegio	colegio	n	un colegio
+1189	spa-aa00d876.flac	colegio	colegio	n	colegio
+1194	spa-ab799f7a.flac	aquí	aquí	adv	aquí
+1199	spa-ac56a0ca.flac	féretro	féretro	undefined	féretro
+1204	spa-acaa8e3a.flac	ahí	ahí	adv	ahí
+1209	spa-adc16444.flac	cavidad	cavidad	n	cavidad
+1214	spa-ae75b42b.flac	cuanto	cuanto	undefined	cuanto antes
+1219	spa-afc2e9b3.flac	ascensión	ascensión	n	ascensión
+1224	spa-aff0e52e.flac	catorce	catorce	undefined	catorce
+1229	spa-b0e65b9a.flac	ciudad	ciudad	n	la ciudad
+1234	spa-b26e58f8.flac	dedicación	dedicación	n	la dedicación
+1239	spa-b3be4bfa.flac	con vosotros	con vosotros	undefined	con vosotros
+1244	spa-b4fbcb56.flac	digestión	digestión	n	la digestión
+1249	spa-b54a3a77.flac	acero	acero	n	el acero
+1254	spa-b68b630d.flac	bicicleta	bicicleta	undefined	andar en bicicleta
+1259	spa-b6e63aa1.flac	impuesto	impuesto	undefined	impuesto
+1264	spa-b82d630b.flac	entretenimiento	entretenimiento	n	entretenimiento
+1269	spa-b8dfcdd3.flac	hermana	hermana	undefined	la hermana
+1274	spa-b96acd5f.flac	cuándo	cuándo	undefined	cuándo
+1279	spa-b9b8c057.flac	entierro	entierro	undefined	entierro
+1284	spa-bacb8728.flac	cometido	cometido	n	el cometido
+1289	spa-bb0a1126.flac	amo	amo	n	amo
+1294	spa-bb61be67.flac	bajo	bajo	adj	bajo
+1299	spa-bcd9c2ab.flac	así	así	adv	así
+1304	spa-bd7248fe.flac	besar	besar	v	besar
+1309	spa-bdbb934d.flac	excepcional	excepcional	adj	excepcional
+1314	spa-be64ea30.flac	parecer	parecer	undefined	a tu parecer
+1319	spa-bf059ec3.flac	estallido	estallido	n	estallido
+1324	spa-bf988cf5.flac	casco	casco	undefined	casco antiguo
+1329	spa-c02ec75f.flac	crecimiento	crecimiento	n	el crecimiento
+1334	spa-c1b705d1.flac	balcón	balcón	undefined	balcón
+1339	spa-c27df702.flac	humano	humano	undefined	humano
+1344	spa-c34151e3.flac	undefined	(conversation)	undefined	Es la una de la tarde
+1349	spa-c42ef767.flac	dedo de pie	dedo de pie	n	dedo de pie
+1354	spa-c4b4e9c9.flac	dulce	dulce	adj	dulce
+1359	spa-c5093176.flac	aire	aire	n	aire
+1364	spa-c5e9728a.flac	descanso	descanso	n	el descanso
+1369	spa-c6950444.flac	hormiga	hormiga	undefined	la hormiga
+1374	spa-c79c9fa9.flac	descansar	descansar	undefined	descansar
+1379	spa-c93ee226.flac	grado	grado	undefined	el grado
+1384	spa-c9f57ed3.flac	espalda	espalda	n	espalda
+1389	spa-ca453161.flac	común	común	adj	común
+1394	spa-cad89e72.flac	incremento	incremento	undefined	el incremento
+1399	spa-cb484dd7.flac	digital	digital	undefined	digital
+1404	spa-cbbe240b.flac	flora	flora	n	la flora
+1409	spa-cc7a348c.flac	ayudar	ayudar	undefined	ayudar en casa
+1414	spa-ccdebf1d.flac	diseño	diseño	n	diseño
+1419	spa-cdb0dd69.flac	acoplar	acoplar	v	acoplar
+1424	spa-ce406d4e.flac	acarrear	acarrear	v	acarrear
+1429	spa-ceebd137.flac	calzada	calzada	undefined	calzada
+1434	spa-cfe6780e.flac	crédito	crédito	n	crédito
+1439	spa-d0e464dc.flac	fiesta	fiesta	n	fiesta
+1444	spa-d1594ba3.flac	desarrollo	desarrollo	n	desarrollo
+1449	spa-d21614d9.flac	empujar	empujar	v	empujar
+1454	spa-d2c322a3.flac	central	central	adj	central
+1459	spa-d4336104.flac	hueso	hueso	undefined	el hueso
+1464	spa-d4a5a579.flac	alentar	alentar	v	alentar
+1469	spa-d5160fea.flac	delgado	delgado	adj	delgado
+1474	spa-d57b29f9.flac	despedir	despedir	v	despedir
+1479	spa-d62f0163.flac	beso	beso	n	un beso
+1484	spa-d69ff041.flac	establecimiento	establecimiento	n	el establecimiento
+1489	spa-d7328abd.flac	cruel	cruel	adj	cruel
+1494	spa-d872a747.flac	actuar	actuar	v	actuar
+1499	spa-d8f8c624.flac	armonía	armonía	n	una armonía
+1504	spa-d9e1c23c.flac	enjabonar	enjabonar	v	enjabonar
+1509	spa-da74b2d4.flac	beneficiar	beneficiar	v	beneficiar
+1514	spa-db234b99.flac	gente	gente	undefined	la gente
+1519	spa-dbe906e6.flac	acaso	acaso	undefined	acaso
+1524	spa-dcc7b58a.flac	cometido	cometido	n	cometido
+1529	spa-dd5f6570.flac	golpe	golpe	undefined	golpe
+1534	spa-de2fa6e0.flac	madrugada	madrugada	undefined	cinco y media de la madrugada
+1539	spa-ded4a4e8.flac	edificio	edificio	n	edificio
+1066	spa-97ddb4e6.flac	conducta	conducta	n	la conducta
+1071	spa-984d5e65.flac	enseñar	enseñar	v	enseñar
+1076	spa-99054c19.flac	ámbito	ámbito	n	el ámbito
+1081	spa-9a971243.flac	economista	economista	undefined	economista
+1086	spa-9b92f9f0.flac	cedro	cedro	undefined	cedro
+1091	spa-9c174a1f.flac	advertencia	advertencia	n	advertencia
+1096	spa-9c69cf99.flac	clínica	clínica	n	una clínica
+1101	spa-9d9bc0b1.flac	experto	experto	n	el experto
+1106	spa-9eafe521.flac	freírlas	freírlas	undefined	freírlas con agua
+1111	spa-9f764d55.flac	cepillo	cepillo	n	el cepillo
+1116	spa-a0344eb2.flac	flojo	flojo	adj	flojo
+1121	spa-a0edde5d.flac	anillo	anillo	n	un anillo
+1126	spa-a18ef4a5.flac	copia	copia	n	copia
+1131	spa-a20288d0.flac	aunque	aunque	adv	aunque
+1136	spa-a2b2393d.flac	completo	completo	adj	completo
+1141	spa-a3974cb5.flac	desayuno	desayuno	undefined	desayuno
+1146	spa-a47b6478.flac	identificar	identificar	undefined	identificar
+1151	spa-a52ef785.flac	brazo	brazo	n	brazo
+1156	spa-a570ab0a.flac	apretar	apretar	v	apretar
+1161	spa-a5c38400.flac	agregar	agregar	v	agregar
+1166	spa-a6dcb51f.flac	acabar	acabar	v	acabar
+1171	spa-a7b53243.flac	carretilla	carretilla	n	carretilla
+1176	spa-a836090d.flac	describir	describir	v	describir
+1181	spa-a91f3715.flac	cavidad	cavidad	n	una cavidad
+1186	spa-a96c1460.flac	chico	chico	n	un chico
+1191	spa-aa710172.flac	ascensor	ascensor	n	ascensor
+1196	spa-aba6745b.flac	cabeza	cabeza	n	cabeza
+1201	spa-ac605876.flac	abierto	abierto	adj	abierto
+1206	spa-acbb7d47.flac	depresión	depresión	n	depresión
+1211	spa-adeec07c.flac	golpe	golpe	undefined	el golpe
+1216	spa-aefff929.flac	demandar	demandar	undefined	demandar
+1221	spa-afdd2901.flac	barrio	barrio	undefined	barrio
+1226	spa-b045e828.flac	arriesgar	arriesgar	v	arriesgar
+1231	spa-b1c458f2.flac	cultura	cultura	n	cultura
+1236	spa-b2f7730a.flac	airado	airado	adj	airado
+1241	spa-b405816f.flac	funcionamiento	funcionamiento	undefined	funcionamiento
+1246	spa-b521a4ac.flac	invención	invención	undefined	invención
+1251	spa-b5733198.flac	blando	blando	adj	blando
+1256	spa-b697fcb5.flac	cultura	cultura	n	la cultura
+1261	spa-b77bdfe1.flac	determinación	determinación	n	determinación
+1266	spa-b838e7fe.flac	dividir	dividir	v	dividir
+1271	spa-b901afef.flac	insignificante	insignificante	undefined	insignificante
+1276	spa-b98f472a.flac	grado	grado	undefined	grado
+1281	spa-b9ff80e8.flac	cocotero	cocotero	undefined	cocotero
+1286	spa-bade61d0.flac	corto	corto	adj	corto
+1291	spa-bb1b2e39.flac	billete	billete	n	billete
+1296	spa-bc740026.flac	delantero	delantero	adj	delantero
+1301	spa-bd1bb409.flac	avión	avión	n	el avión
+1306	spa-bd84790a.flac	desarrollar	desarrollar	v	desarrollar
+1311	spa-bdeba6ff.flac	auto	auto	n	el auto
+1316	spa-beb50c0f.flac	descubrimiento	descubrimiento	n	un descubrimiento
+1321	spa-bf6cfba7.flac	embarcar	embarcar	v	embarcar
+1326	spa-bfadb3fb.flac	está	está	undefined	está bien
+1331	spa-c14a8cc6.flac	inducir	inducir	undefined	inducir
+1336	spa-c1f32088.flac	detestar	detestar	v	detestar
+1341	spa-c2fef0a0.flac	cubrir	cubrir	v	cubrir
+1346	spa-c3d8a91a.flac	formatear	formatear	undefined	formatear
+1351	spa-c4907915.flac	armonía	armonía	n	armonía
+1356	spa-c4c2d7b6.flac	imprimir	imprimir	undefined	imprimir
+1361	spa-c5644d17.flac	así es	así es	undefined	así es
+1366	spa-c67c7c22.flac	descargar	descargar	undefined	descargar
+1371	spa-c6d7d7c7.flac	diseño	diseño	n	el diseño
+1376	spa-c8aaae23.flac	carta	carta	n	una carta
+1381	spa-c949a274.flac	entrada	entrada	n	entrada
+1386	spa-ca153b9b.flac	calcetín	calcetín	n	calcetín
+1391	spa-ca7d3922.flac	botella	botella	n	botella
+1396	spa-cb06ce9e.flac	ambos	ambos	adj	ambos
+1401	spa-cb71525c.flac	centésimo	centésimo	undefined	centésimo
+1406	spa-cc06e6f5.flac	añadir	añadir	v	añadir
+1411	spa-cc85d21f.flac	hacienda	hacienda	undefined	la hacienda
+1416	spa-cd0a624b.flac	cualidad	cualidad	n	la cualidad
+1421	spa-ce1a0633.flac	entrada	entrada	n	la entrada
+1426	spa-cea6da94.flac	espalda	espalda	n	la espalda
+1431	spa-cf5abcda.flac	cuando	cuando	undefined	aun cuando
+1436	spa-d0132d2f.flac	diputación	diputación	n	la diputación
+1441	spa-d10e85f6.flac	banda	banda	n	la banda
+1446	spa-d17a8b94.flac	caballo	caballo	n	caballo
+1451	spa-d239c146.flac	ensayar	ensayar	v	ensayar
+1456	spa-d3f2e4a5.flac	comunicar	comunicar	undefined	comunicar
+1461	spa-d47694f9.flac	dolor	dolor	n	dolor
+1466	spa-d4dded51.flac	huérfano	huérfano	undefined	huérfano
+1471	spa-d525839a.flac	después	después	undefined	después de que
+1476	spa-d59f5289.flac	brazo	brazo	n	el brazo
+1481	spa-d63c9416.flac	mejor	mejor	undefined	a lo mejor
+1486	spa-d6e35152.flac	imposición	imposición	undefined	la imposición
+1491	spa-d7578089.flac	balón	balón	n	balón
+1496	spa-d898c4f8.flac	comprender	comprender	v	comprender
+1501	spa-d95b0a4d.flac	disperso	disperso	adj	disperso
+1506	spa-d9f5304d.flac	huevo	huevo	undefined	huevo
+1511	spa-dacf0fbb.flac	hijo	hijo	undefined	hijo
+1516	spa-db86f89e.flac	ferrocarril	ferrocarril	n	el ferrocarril
+1521	spa-dc446933.flac	disponer	disponer	v	disponer
+1526	spa-dcd1e7ec.flac	dedo	dedo	n	el dedo
+1531	spa-ddb8b356.flac	enfermedad	enfermedad	n	enfermedad
+1536	spa-de917d07.flac	balón	balón	n	el balón
+1541	spa-df275a11.flac	banda	banda	n	banda
+1085	spa-9b2c26d3.flac	inquirir	inquirir	undefined	inquirir
+1090	spa-9bf6ed00.flac	dos	dos	undefined	dos
+1095	spa-9c666e42.flac	esfuerzo	esfuerzo	n	esfuerzo
+1100	spa-9d7bca54.flac	comer	comer	v	comer
+1105	spa-9e667e79.flac	institución	institución	undefined	institución
+1110	spa-9f74f087.flac	hembra	hembra	undefined	la hembra
+1115	spa-9fa193e5.flac	cerdo	cerdo	n	cerdo
+1120	spa-a07a84c0.flac	comedor	comedor	undefined	comedor
+1125	spa-a15431b4.flac	condición	condición	n	condición
+1130	spa-a1d7f015.flac	investigar	investigar	undefined	investigar
+1135	spa-a298df4d.flac	árbol	árbol	undefined	el árbol de navegación
+1140	spa-a3902015.flac	barra	barra	n	una barra
+1145	spa-a4658481.flac	apartado	apartado	n	apartado
+1150	spa-a516b854.flac	cadena	cadena	n	una cadena
+1155	spa-a554b4c5.flac	esperanza	esperanza	n	la esperanza
+1160	spa-a5bcafdb.flac	entero	entero	adj	entero
+1165	spa-a6869283.flac	arroz	arroz	n	arroz
+1170	spa-a747d290.flac	baloncesto	baloncesto	undefined	baloncesto
+1175	spa-a7fde338.flac	descubrimiento	descubrimiento	n	descubrimiento
+1180	spa-a919cf81.flac	devolver	devolver	v	devolver
+1185	spa-a961476f.flac	apropiado	apropiado	adj	apropiado
+1190	spa-aa402c3b.flac	completar	completar	v	completar
+1195	spa-ab9ac7f4.flac	escenario	escenario	n	escenario
+1200	spa-ac574f48.flac	dueño	dueño	n	dueño
+1205	spa-acb14195.flac	corresponder	corresponder	v	corresponder
+1210	spa-adc60585.flac	hermoso	hermoso	undefined	hermoso
+1215	spa-aea271e1.flac	bulto	bulto	n	bulto
+1220	spa-afce42d3.flac	comida	comida	n	la comida
+1225	spa-b0226903.flac	distancia	distancia	n	la distancia
+1230	spa-b192146a.flac	cuchillo	cuchillo	n	cuchillo
+1235	spa-b274b347.flac	agrupación	agrupación	n	agrupación
+1240	spa-b3f2552c.flac	húmedo	húmedo	undefined	húmedo
+1245	spa-b50272f3.flac	estudio	estudio	n	el estudio
+1250	spa-b56f222c.flac	hábil	hábil	undefined	hábil
+1255	spa-b68c2a14.flac	entregar	entregar	v	entregar
+1260	spa-b72436d9.flac	ingenio	ingenio	undefined	el ingenio
+1265	spa-b833d407.flac	bastar	bastar	undefined	bastar
+1270	spa-b8ee3872.flac	club	club	n	club
+1275	spa-b982a5a3.flac	base	base	n	una base
+1280	spa-b9ca71df.flac	filósofa	filósofa	undefined	filósofa
+1285	spa-bad65ef0.flac	enajenar	enajenar	undefined	enajenar
+1290	spa-bb1404f8.flac	garantizar	garantizar	undefined	garantizar
+1295	spa-bbe1c657.flac	hora	hora	undefined	hora
+1300	spa-bce55edb.flac	asco	asco	n	el asco
+1305	spa-bd81bc3e.flac	fase	fase	n	la fase
+1310	spa-bdd5e715.flac	bandera	bandera	n	una bandera
+1315	spa-be970af4.flac	hacer	hacer	undefined	hacer gimnasia
+1320	spa-bf0b1a29.flac	estudio	estudio	n	estudio
+1325	spa-bfa612d1.flac	diversidad	diversidad	n	diversidad
+1330	spa-c0b4fe61.flac	base	base	n	base
+1335	spa-c1c6a003.flac	hormiga	hormiga	undefined	hormiga
+1340	spa-c2e3d610.flac	dormitorio	dormitorio	undefined	dormitorio
+1345	spa-c3745a3f.flac	actualidad	actualidad	n	la actualidad
+1350	spa-c46697ce.flac	beneficio	beneficio	n	el beneficio
+1355	spa-c4bb7ff3.flac	aproximación	aproximación	n	una aproximación
+1360	spa-c52eb513.flac	instrucción	instrucción	undefined	la instrucción
+1365	spa-c5fb9f7b.flac	acero	acero	n	acero
+1370	spa-c6c0e003.flac	choque	choque	n	el choque
+1375	spa-c7a2f5d8.flac	estructura	estructura	n	una estructura
+1380	spa-c942361a.flac	desenvolverse	desenvolverse	undefined	desenvolverse
+1385	spa-ca14260e.flac	copiar	copiar	v	copiar
+1390	spa-ca49c458.flac	cuero	cuero	n	cuero
+1395	spa-cb04530a.flac	cabo	cabo	n	cabo
+1400	spa-cb6decf0.flac	facilitar	facilitar	v	facilitar
+1405	spa-cbd70da5.flac	esperanza	esperanza	n	esperanza
+1410	spa-cc7d33d0.flac	ascensor	ascensor	n	el ascensor
+1415	spa-ccee2a45.flac	gota	gota	undefined	una gota
+1420	spa-cdfa77fa.flac	encuentro	encuentro	n	encuentro
+1425	spa-cea36a73.flac	botella	botella	n	una botella
+1430	spa-cf061d8d.flac	choque	choque	n	choque
+1435	spa-d00dab43.flac	adinerado	adinerado	undefined	adinerado
+1440	spa-d0ea0803.flac	impuesto	impuesto	undefined	el impuesto
+1445	spa-d169342e.flac	extender	extender	undefined	extender
+1450	spa-d234245d.flac	faena	faena	n	la faena
+1455	spa-d3dd6cfd.flac	delito	delito	n	delito
+1460	spa-d470aa44.flac	inicio	inicio	undefined	el inicio
+1465	spa-d4d507e2.flac	fuerza	fuerza	undefined	la fuerza
+1470	spa-d521c638.flac	frágil	frágil	adj	frágil
+1475	spa-d59ca413.flac	expediente	expediente	undefined	expediente
+1480	spa-d637378f.flac	arroz	arroz	n	el arroz
+1485	spa-d6bf393b.flac	consecuencia	consecuencia	n	consecuencia
+1490	spa-d7505e4f.flac	guerra	guerra	undefined	la guerra
+1495	spa-d875fe00.flac	desanimado	desanimado	undefined	desanimado
+1500	spa-d9555957.flac	implicar	implicar	undefined	implicar
+1505	spa-d9f001b7.flac	ácido	ácido	adj	ácido
+1510	spa-dabb60d6.flac	grande	grande	undefined	grande
+1515	spa-db73e34e.flac	caballo	caballo	n	el caballo
+1520	spa-dc1dfbba.flac	faena	faena	n	faena
+1525	spa-dcc8316c.flac	defensa	defensa	n	defensa
+1530	spa-ddb657ca.flac	inicio	inicio	undefined	inicio
+1535	spa-de669d31.flac	conservar	conservar	v	conservar
+1540	spa-deddd42d.flac	cuatrocientos	cuatrocientos	undefined	cuatrocientos
+1545	spa-dfde351e.flac	consecuencia	consecuencia	n	la consecuencia
+1550	spa-e0973a53.flac	estilo	estilo	n	estilo
+1555	spa-e1a507d7.flac	enojarse	enojarse	undefined	enojarse
+1544	spa-dfd6e475.flac	eléctrico	eléctrico	adj	eléctrico
+1549	spa-e0517491.flac	claro	claro	adj	claro
+1554	spa-e1679fa6.flac	depresión	depresión	n	la depresión
+1559	spa-e2cae8dc.flac	correo electrónico	correo electrónico	undefined	el correo electrónico
+1564	spa-e37d7c5c.flac	almuerzo	almuerzo	undefined	almuerzo
+1569	spa-e4ea2aab.flac	construcción	construcción	n	construcción
+1574	spa-e5a8d25b.flac	después	después	adv	después
+1579	spa-e6c2d7fb.flac	adecuadas	adecuadas	undefined	adecuadas
+1584	spa-e7d24491.flac	control	control	n	el control
+1589	spa-e92a1259.flac	civilización	civilización	n	la civilización
+1594	spa-e98cccd6.flac	áspero	áspero	adj	áspero
+1599	spa-e9eaa16d.flac	albaricoquero	albaricoquero	undefined	el albaricoquero
+1604	spa-eaa2ea1b.flac	dinero	dinero	n	el dinero
+1609	spa-eb6c7b2d.flac	escalón	escalón	n	el escalón
+1614	spa-ec88d355.flac	condición	condición	n	la condición
+1619	spa-ecc32277.flac	grueso	grueso	undefined	grueso
+1624	spa-ed38ec00.flac	factor	factor	n	factor
+1629	spa-edfc00f4.flac	desplazar	desplazar	v	desplazar
+1634	spa-ee908317.flac	empatía	empatía	undefined	empatía
+1639	spa-efd76b61.flac	argumento	argumento	n	argumento
+1644	spa-f0b45546.flac	fiscal	fiscal	adj	fiscal
+1649	spa-f25621fe.flac	con tal que	con tal que	undefined	con tal que
+1654	spa-f2e933a2.flac	ave	ave	n	ave
+1659	spa-f3b0ec22.flac	instaurar	instaurar	undefined	instaurar
+1664	spa-f44e5690.flac	carril	carril	n	el carril
+1669	spa-f544b90c.flac	encuentro	encuentro	n	el encuentro
+1674	spa-f5fd176d.flac	esquema	esquema	n	esquema
+1679	spa-f6acd6d9.flac	esquema	esquema	n	un esquema
+1684	spa-f7b4da4c.flac	hierba	hierba	undefined	hierba
+1689	spa-f8d5b0ab.flac	ahora	ahora	undefined	ahora
+1694	spa-f92729b7.flac	digestión	digestión	n	digestión
+1699	spa-fa164234.flac	entretenimiento	entretenimiento	n	el entretenimiento
+1704	spa-fa9277ce.flac	escala	escala	n	la escala
+1709	spa-fb6cd563.flac	elemental	elemental	adj	elemental
+1714	spa-fc27b028.flac	dónde	dónde	undefined	de dónde
+1719	spa-fd1711bf.flac	ceder	ceder	v	ceder
+1724	spa-fd885f08.flac	micrófono	micrófono	undefined	el micrófono
+1729	spa-fdc3cde7.flac	color	color	n	un color
+1734	spa-ff0369fc.flac	encanto	encanto	undefined	encanto
+1739	spa-ffdfbafe.flac	despedirse	despedirse	undefined	despedirse
+1543	spa-df7654d6.flac	gelatina	gelatina	undefined	gelatina
+1548	spa-e0194060.flac	abrigo	abrigo	n	abrigo
+1553	spa-e120a893.flac	gancho	gancho	undefined	gancho
+1558	spa-e2800547.flac	carácter	carácter	n	carácter
+1563	spa-e37287c4.flac	comenzar	comenzar	v	comenzar
+1568	spa-e47fd998.flac	decisión	decisión	n	decisión
+1573	spa-e53d5fca.flac	bonito	bonito	adj	bonito
+1578	spa-e668a105.flac	comité	comité	n	un comité
+1583	spa-e7c50def.flac	historiadora	historiadora	undefined	historiadora
+1588	spa-e8e6551d.flac	gancho	gancho	undefined	el gancho
+1593	spa-e987a803.flac	cerezo	cerezo	undefined	cerezo
+1598	spa-e9dfbdee.flac	abrigo	abrigo	n	el abrigo
+1603	spa-ea81d8d3.flac	daño	daño	n	el daño
+1608	spa-eb1cf15f.flac	monitor	monitor	undefined	el monitor
+1613	spa-ec6512c1.flac	fotógrafo	fotógrafo	undefined	el fotógrafo
+1618	spa-ecb96228.flac	adquirir	adquirir	v	adquirir
+1623	spa-ed0fa912.flac	desgaste	desgaste	n	desgaste
+1628	spa-edf4023c.flac	azul	azul	adj	azul
+1633	spa-ee843ad8.flac	fiesta	fiesta	n	la fiesta
+1638	spa-efc1e86a.flac	economía	economía	n	la economía
+1643	spa-f0b13de0.flac	con	con	undefined	con quienquiera
+1648	spa-f23de337.flac	biblioteca	biblioteca	n	biblioteca
+1653	spa-f2cb5085.flac	cocinera	cocinera	n	una cocinera
+1658	spa-f3270d9a.flac	condimentar	condimentar	v	condimentar
+1663	spa-f41c9b25.flac	cliente	cliente	n	cliente
+1668	spa-f51cbbd1.flac	femenino	femenino	adj	femenino
+1673	spa-f5e3f097.flac	astrónoma	astrónoma	undefined	astrónoma
+1678	spa-f699e518.flac	capítulo	capítulo	n	el capítulo
+1683	spa-f7518244.flac	instrumento	instrumento	undefined	instrumento
+1688	spa-f855c89b.flac	abajo	abajo	adv	abajo
+1693	spa-f9049178.flac	imagen	imagen	undefined	la
+1698	spa-fa134190.flac	vez en cuando	vez en cuando	undefined	de vez en cuando
+1703	spa-fa82eee1.flac	intentar	intentar	undefined	intentar
+1708	spa-fb30da77.flac	bota	bota	n	una bota
+1713	spa-fc1eea9e.flac	duda	duda	n	duda
+1718	spa-fcd85938.flac	beneficio	beneficio	n	beneficio
+1723	spa-fd5e04c3.flac	grito	grito	undefined	grito
+1728	spa-fdbf975c.flac	con	con	undefined	con
+1733	spa-fef28d86.flac	gol	gol	undefined	el gol
+1738	spa-ffd95067.flac	contrario	contrario	adj	contrario
+1546	spa-dff9900e.flac	insecto	insecto	undefined	insecto
+1551	spa-e0a33a93.flac	año	año	n	un año
+1556	spa-e1fa9b49.flac	plato	plato	undefined	el plato
+1561	spa-e3641795.flac	dinero	dinero	n	dinero
+1566	spa-e465f405.flac	caja	caja	n	caja
+1571	spa-e50f8fb5.flac	hombre	hombre	undefined	el hombre
+1576	spa-e5cb0c54.flac	hace	hace	undefined	hace
+1581	spa-e743a914.flac	caer	caer	v	caer
+1586	spa-e81ce7b9.flac	café	café	undefined	el café
+1591	spa-e951c7dd.flac	estilo	estilo	n	el estilo
+1596	spa-e9c3d42e.flac	círculo	círculo	n	el círculo
+1601	spa-ea26098c.flac	desdichado	desdichado	undefined	desdichado
+1606	spa-eadc3be5.flac	foto	foto	n	foto
+1611	spa-ec21ba08.flac	astuto	astuto	adj	astuto
+1616	spa-ec9bfddb.flac	terminal	terminal	undefined	el terminal de autobuses
+1621	spa-ecd55cc6.flac	final	final	adj	final
+1626	spa-ed9fa368.flac	entonces	entonces	undefined	entonces
+1631	spa-ee40d659.flac	hueco	hueco	undefined	hueco
+1636	spa-ef1036e9.flac	cerdo	cerdo	n	el cerdo
+1641	spa-f06b2853.flac	brillante	brillante	adj	brillante
+1646	spa-f10919ab.flac	archivar	archivar	undefined	archivar
+1651	spa-f2abf56d.flac	calcetín	calcetín	n	el calcetín
+1656	spa-f30b2a84.flac	avergonzar	avergonzar	v	avergonzar
+1661	spa-f3efdc88.flac	apartamento	apartamento	n	un apartamento
+1666	spa-f45b4bf1.flac	emplear	emplear	v	emplear
+1671	spa-f5d09999.flac	dibujar	dibujar	v	dibujar
+1676	spa-f6389ad6.flac	calor	calor	n	el calor
+1681	spa-f7142508.flac	informar	informar	undefined	informar
+1686	spa-f7c53f12.flac	cabra	cabra	n	cabra
+1691	spa-f8f081d9.flac	don	don	undefined	don
+1696	spa-f9eba009.flac	factura	factura	n	factura
+1701	spa-fa4eec1d.flac	averiguar	averiguar	v	averiguar
+1706	spa-fad42766.flac	agosto	agosto	undefined	agosto
+1711	spa-fbf5999f.flac	aeropuerto	aeropuerto	undefined	el aeropuerto
+1716	spa-fca4873e.flac	día	día	n	el día
+1721	spa-fd48367e.flac	insertar	insertar	undefined	insertar
+1726	spa-fd9cf3ff.flac	doscientos	doscientos	undefined	doscientos
+1731	spa-fe14566d.flac	crecimiento	crecimiento	n	crecimiento
+1736	spa-ff4f8a54.flac	desgraciadamente	desgraciadamente	undefined	desgraciadamente
+1547	spa-dffb55eb.flac	apertura	apertura	undefined	apertura
+1552	spa-e1190df3.flac	destreza	destreza	n	la destreza
+1557	spa-e21e0b52.flac	ascensión	ascensión	n	la ascensión
+1562	spa-e3710466.flac	actividad	actividad	n	la actividad
+1567	spa-e47c2d2b.flac	dañar	dañar	v	dañar
+1572	spa-e53960b1.flac	comité	comité	n	comité
+1577	spa-e5ea44cf.flac	estornudo	estornudo	n	estornudo
+1582	spa-e7808d76.flac	auge	auge	n	auge
+1587	spa-e8b5c6de.flac	división	división	n	la división
+1592	spa-e975f45f.flac	aventurar	aventurar	v	aventurar
+1597	spa-e9c7fdd6.flac	arrepentirse	arrepentirse	v	arrepentirse
+1602	spa-ea7592ec.flac	cartera	cartera	undefined	cartera
+1607	spa-eafa7df8.flac	anochecer	anochecer	n	el anochecer
+1612	spa-ec4fa38a.flac	afección	afección	n	la afección
+1617	spa-ecb64db4.flac	avellano	avellano	undefined	avellano
+1622	spa-ece17d05.flac	parque	parque	undefined	el parque
+1627	spa-eddb2c4b.flac	control	control	n	control
+1632	spa-ee677e57.flac	brusco	brusco	adj	brusco
+1637	spa-ef17c3c5.flac	alcalde	alcalde	undefined	alcalde
+1642	spa-f0885051.flac	con	con	undefined	con él
+1647	spa-f1954689.flac	escuela	escuela	n	la escuela
+1652	spa-f2c2e8d1.flac	afán	afán	n	afán
+1657	spa-f3166daf.flac	alumno	alumno	n	un alumno
+1662	spa-f3fbf425.flac	extranjero	extranjero	adj	extranjero
+1667	spa-f483a1ec.flac	concepción	concepción	n	concepción
+1672	spa-f5d56f6c.flac	ciertamente	ciertamente	adv	ciertamente
+1677	spa-f693fb5c.flac	autorizar	autorizar	v	autorizar
+1682	spa-f74d5a91.flac	cliente	cliente	n	un cliente
+1687	spa-f7db39ea.flac	compromiso	compromiso	n	compromiso
+1692	spa-f8fd464d.flac	invención	invención	undefined	la invención
+1697	spa-f9ece0f5.flac	cabra	cabra	n	la cabra
+1702	spa-fa6a5ce0.flac	esfuerzo	esfuerzo	n	el esfuerzo
+1707	spa-fafbe4ca.flac	cuarenta	cuarenta	undefined	cuarenta
+1712	spa-fc10b8f1.flac	alguno	alguno	a	alguno
+1717	spa-fcba7b42.flac	adónde	adónde	undefined	adónde
+1722	spa-fd51a4e3.flac	cien	cien	undefined	cien
+1727	spa-fdb4625a.flac	fértil	fértil	adj	fértil
+1732	spa-feb8044e.flac	factura	factura	n	la factura
+1737	spa-ff5db400.flac	cantidad	cantidad	n	la cantidad
+1560	spa-e3383553.flac	hablar	hablar	undefined	hablar
+1565	spa-e3f029e4.flac	estorbar	estorbar	v	estorbar
+1570	spa-e4fe118e.flac	factor	factor	n	el factor
+1575	spa-e5bc69ac.flac	ferrocarril	ferrocarril	n	ferrocarril
+1580	spa-e6cd9426.flac	decir	decir	v	decir
+1585	spa-e80a6964.flac	área	área	n	área
+1590	spa-e930004b.flac	guerra	guerra	undefined	guerra
+1595	spa-e98f1f81.flac	energía	energía	n	energía
+1600	spa-ea130420.flac	gen	gen	undefined	el gen
+1605	spa-eab559e6.flac	fuerza	fuerza	undefined	fuerza
+1610	spa-ec05fca6.flac	supermercado	supermercado	undefined	el supermercado
+1615	spa-ec9159f7.flac	bastante	bastante	adv	bastante
+1620	spa-ecc9723b.flac	hombre	hombre	undefined	hombre
+1625	spa-ed90eb2e.flac	teclado	teclado	undefined	el teclado
+1630	spa-ee0e60fa.flac	ganar	ganar	undefined	ganar
+1635	spa-eea3efb4.flac	cocinera	cocinera	n	cocinera
+1640	spa-f01a1f1d.flac	gritar	gritar	undefined	gritar
+1645	spa-f0dec3a6.flac	despierto	despierto	adj	despierto
+1650	spa-f27af030.flac	diversidad	diversidad	n	la diversidad
+1655	spa-f2ef7e20.flac	competición	competición	n	competición
+1660	spa-f3e7bf26.flac	apretado	apretado	adj	apretado
+1665	spa-f45290d2.flac	curvatura	curvatura	n	curvatura
+1670	spa-f549288d.flac	administración	administración	n	la administración
+1675	spa-f62fe3fe.flac	básico	básico	adj	básico
+1680	spa-f6c6e2ce.flac	escuela	escuela	n	escuela
+1685	spa-f7b7bba6.flac	causa	causa	n	causa
+1690	spa-f8dc1f4d.flac	idea	idea	undefined	la idea
+1695	spa-f9b4e776.flac	estornudar	estornudar	v	estornudar
+1700	spa-fa32a75f.flac	blanco	blanco	adj	blanco
+1705	spa-faa3e62a.flac	constituir	constituir	v	constituir
+1710	spa-fb8e7205.flac	competición	competición	n	la competición
+1715	spa-fc7aa1ef.flac	crío	crío	n	el crío
+1720	spa-fd2e57d6.flac	cerca	cerca	adv	cerca de
+1725	spa-fd88ab1e.flac	carril	carril	n	carril
+1730	spa-fdca4198.flac	botón	botón	n	botón
+1735	spa-ff35f13a.flac	cronometrar	cronometrar	v	cronometrar
+\.
+
+
+--
+-- Name: langdata_pkey; Type: CONSTRAINT; Schema: public; Owner: marc; Tablespace: 
+--
+
+ALTER TABLE ONLY langdata
+    ADD CONSTRAINT langdata_pkey PRIMARY KEY (id);
+
+
+--
+-- PostgreSQL database dump complete
+--
+

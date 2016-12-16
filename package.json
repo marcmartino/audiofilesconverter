@@ -1,0 +1,16 @@
+{
+  "name": "audiofilesconverter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^6.1.2",
+    "pg-rxjs": "^1.0.20",
+    "xml2js": "^0.4.17"
+  }
+}
